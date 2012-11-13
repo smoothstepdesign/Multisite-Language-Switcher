@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>Multisite Language Switcher » Msls\Main</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">Multisite Language Switcher</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Msls.html"><i class="icon-folder-open"></i> Msls</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul><li>todo 
+                <span class="label label-info">3</span>
+</li></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-map-marker"></i> Packages</li>
+<li>
+<a href="../packages/Msls.Main.html" title="Main"><i class="icon-folder-open"></i>Main</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-class"></i> Classes</li>
+<li><a href="#MslsAdmin" title="Administration of the options">MslsAdmin</a></li>
+<li><a href="#MslsContentTypes" title="Supported content types">MslsContentTypes</a></li>
+<li><a href="#MslsCustomColumn" title="Handling of existing/not existing translations in the backend
+listings of various post types">MslsCustomColumn</a></li>
+<li><a href="#MslsCustomColumnTaxonomy" title="Handling of existing/not existing translations in the backend
+listings of various taxonomies">MslsCustomColumnTaxonomy</a></li>
+<li><a href="#MslsGetSet" title="Generic class for overloading properties">MslsGetSet</a></li>
+<li><a href="#MslsMetaBox" title="Meta box for the edit mode of the (custom) post types">MslsMetaBox</a></li>
+<li><a href="#MslsMain" title="Abstraction for the hook classes">MslsMain</a></li>
+<li><a href="#MslsBlogCollection" title="Collection of blog-objects">MslsBlogCollection</a></li>
+<li><a href="#MslsPostTag" title="Post Tag">MslsPostTag</a></li>
+<li><a href="#MslsLanguageArray" title="Stores the language input from post">MslsLanguageArray</a></li>
+<li><a href="#MslsBlog" title="Internal representation of a blog">MslsBlog</a></li>
+<li><a href="#MslsRegistry" title="Registry instead of singletons">MslsRegistry</a></li>
+<li><a href="#MslsPlugin" title="Provides functionalities for activation an deactivation">MslsPlugin</a></li>
+<li><a href="#MslsTaxonomy" title="Content types: Taxonomies (Tags, Categories, .">MslsTaxonomy</a></li>
+<li><a href="#MslsPostType" title="Content types: Post types (Pages, Posts, .">MslsPostType</a></li>
+</ul>
+</div>
+<div class="span8 package-contents">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Msls.html">Msls</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Msls.Main.html">Main</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="MslsAdmin" class="element ajax clickable class">
+<h1>MslsAdmin<a href="../classes/MslsAdmin.html">¶</a>
+</h1>
+<p class="short_description">Administration of the options</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsAdmin.html" class="more">« More »</a>
+</div>
+<div id="MslsBlog" class="element ajax clickable class">
+<h1>MslsBlog<a href="../classes/MslsBlog.html">¶</a>
+</h1>
+<p class="short_description">Internal representation of a blog</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsBlog.html" class="more">« More »</a>
+</div>
+<div id="MslsBlogCollection" class="element ajax clickable class">
+<h1>MslsBlogCollection<a href="../classes/MslsBlogCollection.html">¶</a>
+</h1>
+<p class="short_description">Collection of blog-objects</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsBlogCollection.html" class="more">« More »</a>
+</div>
+<div id="MslsContentTypes" class="element ajax clickable class">
+<h1>MslsContentTypes<a href="../classes/MslsContentTypes.html">¶</a>
+</h1>
+<p class="short_description">Supported content types</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsContentTypes.html" class="more">« More »</a>
+</div>
+<div id="MslsCustomColumn" class="element ajax clickable class">
+<h1>MslsCustomColumn<a href="../classes/MslsCustomColumn.html">¶</a>
+</h1>
+<p class="short_description">Handling of existing/not existing translations in the backend
+listings of various post types</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsCustomColumn.html" class="more">« More »</a>
+</div>
+<div id="MslsCustomColumnTaxonomy" class="element ajax clickable class">
+<h1>MslsCustomColumnTaxonomy<a href="../classes/MslsCustomColumnTaxonomy.html">¶</a>
+</h1>
+<p class="short_description">Handling of existing/not existing translations in the backend
+listings of various taxonomies</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsCustomColumnTaxonomy.html" class="more">« More »</a>
+</div>
+<div id="MslsGetSet" class="element ajax clickable class">
+<h1>MslsGetSet<a href="../classes/MslsGetSet.html">¶</a>
+</h1>
+<p class="short_description">Generic class for overloading properties</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsGetSet.html" class="more">« More »</a>
+</div>
+<div id="MslsLanguageArray" class="element ajax clickable class">
+<h1>MslsLanguageArray<a href="../classes/MslsLanguageArray.html">¶</a>
+</h1>
+<p class="short_description">Stores the language input from post</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsLanguageArray.html" class="more">« More »</a>
+</div>
+<div id="MslsMain" class="element ajax clickable class">
+<h1>MslsMain<a href="../classes/MslsMain.html">¶</a>
+</h1>
+<p class="short_description">Abstraction for the hook classes</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsMain.html" class="more">« More »</a>
+</div>
+<div id="MslsMetaBox" class="element ajax clickable class">
+<h1>MslsMetaBox<a href="../classes/MslsMetaBox.html">¶</a>
+</h1>
+<p class="short_description">Meta box for the edit mode of the (custom) post types</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsMetaBox.html" class="more">« More »</a>
+</div>
+<div id="MslsPlugin" class="element ajax clickable class">
+<h1>MslsPlugin<a href="../classes/MslsPlugin.html">¶</a>
+</h1>
+<p class="short_description">Provides functionalities for activation an deactivation</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsPlugin.html" class="more">« More »</a>
+</div>
+<div id="MslsPostTag" class="element ajax clickable class">
+<h1>MslsPostTag<a href="../classes/MslsPostTag.html">¶</a>
+</h1>
+<p class="short_description">Post Tag</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsPostTag.html" class="more">« More »</a>
+</div>
+<div id="MslsPostType" class="element ajax clickable class">
+<h1>MslsPostType<a href="../classes/MslsPostType.html">¶</a>
+</h1>
+<p class="short_description">Content types: Post types (Pages, Posts, .</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsPostType.html" class="more">« More »</a>
+</div>
+<div id="MslsRegistry" class="element ajax clickable class">
+<h1>MslsRegistry<a href="../classes/MslsRegistry.html">¶</a>
+</h1>
+<p class="short_description">Registry instead of singletons</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsRegistry.html" class="more">« More »</a>
+</div>
+<div id="MslsTaxonomy" class="element ajax clickable class">
+<h1>MslsTaxonomy<a href="../classes/MslsTaxonomy.html">¶</a>
+</h1>
+<p class="short_description">Content types: Taxonomies (Tags, Categories, .</p>
+<div class="details collapse"></div>
+<a href="../classes/MslsTaxonomy.html" class="more">« More »</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a11</a> and<br>
+            generated on 2012-11-13T21:16:51+01:00.<br></footer></div>
+</div>
+</body>
+</html>
