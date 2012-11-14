@@ -32,7 +32,7 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">4</span></a></li>
+                <span class="label label-info">0</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul><li>todo 
                 <span class="label label-info">3</span>
@@ -60,14 +60,10 @@
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public inherited"><a href="#method___construct" title="__construct :: Constructor"><span class="description">Constructor</span><pre>__construct()</pre></a></li>
-<li class="method public inherited"><a href="#method___get" title="__get :: "><span class="description">__get()
-        </span><pre>__get()</pre></a></li>
-<li class="method public inherited"><a href="#method___isset" title="__isset :: "><span class="description">__isset()
-        </span><pre>__isset()</pre></a></li>
-<li class="method public inherited"><a href="#method___set" title="__set :: "><span class="description">__set()
-        </span><pre>__set()</pre></a></li>
-<li class="method public inherited"><a href="#method___unset" title="__unset :: "><span class="description">__unset()
-        </span><pre>__unset()</pre></a></li>
+<li class="method public inherited"><a href="#method___get" title="__get :: get (overloaded)"><span class="description">get (overloaded)</span><pre>__get()</pre></a></li>
+<li class="method public inherited"><a href="#method___isset" title="__isset :: isset (overloaded)"><span class="description">isset (overloaded)</span><pre>__isset()</pre></a></li>
+<li class="method public inherited"><a href="#method___set" title="__set :: set (overloaded)"><span class="description">set (overloaded)</span><pre>__set()</pre></a></li>
+<li class="method public inherited"><a href="#method___unset" title="__unset :: unset (overloaded)"><span class="description">unset (overloaded)</span><pre>__unset()</pre></a></li>
 <li class="method public "><a href="#method_create" title="create :: Factory method"><span class="description">Factory method</span><pre>create()</pre></a></li>
 <li class="method public inherited"><a href="#method_delete" title="delete :: Delete"><span class="description">Delete</span><pre>delete()</pre></a></li>
 <li class="method public inherited"><a href="#method_get_arr" title="get_arr :: get_arr"><span class="description">get_arr</span><pre>get_arr()</pre></a></li>
@@ -149,17 +145,12 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___get"></a><div class="element clickable method public method___get" data-toggle="collapse" data-target=".method___get .collapse">
-<h2>__get()
-        </h2>
+<h2>get (overloaded)</h2>
 <pre>__get(mixed $key) : mixed</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
-<tr>
-<th>see</th>
-<td><a href="">__set</a></td>
-</tr>
 <tr>
 <th>inherited_from</th>
 <td>\MslsGetSet::__get()</td>
@@ -179,17 +170,12 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___isset"></a><div class="element clickable method public method___isset" data-toggle="collapse" data-target=".method___isset .collapse">
-<h2>__isset()
-        </h2>
+<h2>isset (overloaded)</h2>
 <pre>__isset(mixed $key) : bool</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
-<tr>
-<th>see</th>
-<td><a href="">__isset</a></td>
-</tr>
 <tr>
 <th>inherited_from</th>
 <td>\MslsGetSet::__isset()</td>
@@ -209,17 +195,12 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___set"></a><div class="element clickable method public method___set" data-toggle="collapse" data-target=".method___set .collapse">
-<h2>__set()
-        </h2>
+<h2>set (overloaded)</h2>
 <pre>__set(mixed $key, mixed $value) </pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
-<tr>
-<th>see</th>
-<td><a href="">__get</a></td>
-</tr>
 <tr>
 <th>inherited_from</th>
 <td>\MslsGetSet::__set()</td>
@@ -241,17 +222,12 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___unset"></a><div class="element clickable method public method___unset" data-toggle="collapse" data-target=".method___unset .collapse">
-<h2>__unset()
-        </h2>
+<h2>unset (overloaded)</h2>
 <pre>__unset(mixed $key) </pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
-<tr>
-<th>see</th>
-<td><a href="">__unset</a></td>
-</tr>
 <tr>
 <th>inherited_from</th>
 <td>\MslsGetSet::__unset()</td>
@@ -420,7 +396,11 @@ $val = $obj->get_arr(); // array( 'temp' => 'test' ) == $val
 <pre>has_value(string $key) : bool</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Check if the array has an non empty item with the specified key</p>
+<div class="long_description"><p>Check if the array has an non empty item with the specified key.
+This is method is similar to the overloaded __isset-method since
+__set cleans empty properties but I use for example
+$obj->has_value( $temp ) and not isset( $obj->$temp ) which is
+the same but a little bit ugly.</p>
 
 <pre><code>$obj = new MslsGetSet;
 $val = $obj->has_value( 'temp' ); // false == $val
@@ -691,7 +671,7 @@ $val = $obj->get_arr(); // array() == $val
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a11</a> and<br>
-            generated on 2012-11-14T18:48:52+01:00.<br></footer></div>
+            generated on 2012-11-14T19:24:30+01:00.<br></footer></div>
 </div>
 </body>
 </html>
