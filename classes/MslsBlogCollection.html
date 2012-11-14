@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>Multisite Language Switcher » \MslsBlogCollection</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">Multisite Language Switcher</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Msls.html"><i class="icon-folder-open"></i> Msls</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul><li>todo 
+                <span class="label label-info">3</span>
+</li></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method___construct" title="__construct :: Constructor"><span class="description">Constructor</span><pre>__construct()</pre></a></li>
+<li class="method public "><a href="#method_get" title="get :: Get an arry of blog-objects but not the current blog"><span class="description">Get an arry of blog-objects but not the current blog</span><pre>get()</pre></a></li>
+<li class="method public "><a href="#method_get_current_blog" title="get_current_blog :: Get current blog as object"><span class="description">Get current blog as object</span><pre>get_current_blog()</pre></a></li>
+<li class="method public "><a href="#method_get_current_blog_id" title="get_current_blog_id :: Get the id of the current blog"><span class="description">Get the id of the current blog</span><pre>get_current_blog_id()</pre></a></li>
+<li class="method public "><a href="#method_get_filtered" title="get_filtered :: Get an array with filtered blog-objects"><span class="description">Get an array with filtered blog-objects</span><pre>get_filtered()</pre></a></li>
+<li class="method public "><a href="#method_get_objects" title="get_objects :: Get an array with all blog-objects"><span class="description">Get an array with all blog-objects</span><pre>get_objects()</pre></a></li>
+<li class="method public "><a href="#method_has_current_blog" title="has_current_blog :: Check if current blog is in the collection"><span class="description">Check if current blog is in the collection</span><pre>has_current_blog()</pre></a></li>
+<li class="method public "><a href="#method_instance" title="instance :: Get or create a instance of MslsBlogCollection"><span class="description">Get or create a instance of MslsBlogCollection</span><pre>instance()</pre></a></li>
+<li class="method public "><a href="#method_is_plugin_active" title="is_plugin_active :: Is plugin active in the blog with that blog_id"><span class="description">Is plugin active in the blog with that blog_id</span><pre>is_plugin_active()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul>
+<li class="property private "><a href="#property_active_plugins" title="$active_plugins :: Active plugins in the whole network"><span class="description"></span><pre>$active_plugins</pre></a></li>
+<li class="property private "><a href="#property_current_blog_id" title="$current_blog_id :: ID of the current blog"><span class="description"></span><pre>$current_blog_id</pre></a></li>
+<li class="property private "><a href="#property_current_blog_output" title="$current_blog_output :: True if the current blog should be in the output"><span class="description"></span><pre>$current_blog_output</pre></a></li>
+<li class="property private "><a href="#property_objects" title="$objects :: Collection of MslsBlog-objects"><span class="description"></span><pre>$objects</pre></a></li>
+<li class="property private "><a href="#property_objects_order" title="$objects_order :: Order output by language or description"><span class="description"></span><pre>$objects_order</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\MslsBlogCollection"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/MslsBlogCollection.html">MslsBlogCollection</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Collection of blog-objects</p>
+<div class="details">
+<div class="long_description"><p>Implements the interface IMslsRegistryInstance because we want to
+work with a singleton instance of MslsBlogCollection all the time.</p></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Msls.Main.html">Msls</a></td>
+</tr>
+<tr>
+<th>subpackage</th>
+<td>Main</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method___construct"></a><div class="element clickable method public method___construct" data-toggle="collapse" data-target=".method___construct .collapse">
+<h2>Constructor</h2>
+<pre>__construct() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_get"></a><div class="element clickable method public method_get" data-toggle="collapse" data-target=".method_get .collapse">
+<h2>Get an arry of blog-objects but not the current blog</h2>
+<pre>get() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_get_current_blog"></a><div class="element clickable method public method_get_current_blog" data-toggle="collapse" data-target=".method_get_current_blog .collapse">
+<h2>Get current blog as object</h2>
+<pre>get_current_blog() : <a href="../classes/MslsBlog.html">\MslsBlog</a> | null</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code><a href="../classes/MslsBlog.html">\MslsBlog</a></code><code>null</code>
+</div>
+</div></div>
+</div>
+<a id="method_get_current_blog_id"></a><div class="element clickable method public method_get_current_blog_id" data-toggle="collapse" data-target=".method_get_current_blog_id .collapse">
+<h2>Get the id of the current blog</h2>
+<pre>get_current_blog_id() : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>int</code></div>
+</div></div>
+</div>
+<a id="method_get_filtered"></a><div class="element clickable method public method_get_filtered" data-toggle="collapse" data-target=".method_get_filtered .collapse">
+<h2>Get an array with filtered blog-objects</h2>
+<pre>get_filtered(bool $filter) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$filter</h4>
+<code>bool</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_get_objects"></a><div class="element clickable method public method_get_objects" data-toggle="collapse" data-target=".method_get_objects .collapse">
+<h2>Get an array with all blog-objects</h2>
+<pre>get_objects() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_has_current_blog"></a><div class="element clickable method public method_has_current_blog" data-toggle="collapse" data-target=".method_has_current_blog .collapse">
+<h2>Check if current blog is in the collection</h2>
+<pre>has_current_blog() : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_instance"></a><div class="element clickable method public method_instance" data-toggle="collapse" data-target=".method_instance .collapse">
+<h2>Get or create a instance of MslsBlogCollection</h2>
+<pre>instance() : <a href="../classes/MslsBlogCollection.html">\MslsBlogCollection</a></pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code><a href="../classes/MslsBlogCollection.html">\MslsBlogCollection</a></code></div>
+</div></div>
+</div>
+<a id="method_is_plugin_active"></a><div class="element clickable method public method_is_plugin_active" data-toggle="collapse" data-target=".method_is_plugin_active .collapse">
+<h2>Is plugin active in the blog with that blog_id</h2>
+<pre>is_plugin_active(int $blog_id) : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$blog_id</h4>
+<code>int</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_active_plugins"> </a><div class="element clickable property private property_active_plugins" data-toggle="collapse" data-target=".property_active_plugins .collapse">
+<h2></h2>
+<pre>$active_plugins : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_current_blog_id"> </a><div class="element clickable property private property_current_blog_id" data-toggle="collapse" data-target=".property_current_blog_id .collapse">
+<h2></h2>
+<pre>$current_blog_id : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_current_blog_output"> </a><div class="element clickable property private property_current_blog_output" data-toggle="collapse" data-target=".property_current_blog_output .collapse">
+<h2></h2>
+<pre>$current_blog_output : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_objects"> </a><div class="element clickable property private property_objects" data-toggle="collapse" data-target=".property_objects .collapse">
+<h2></h2>
+<pre>$objects : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_objects_order"> </a><div class="element clickable property private property_objects_order" data-toggle="collapse" data-target=".property_objects_order .collapse">
+<h2></h2>
+<pre>$objects_order : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a11</a> and<br>
+            generated on 2012-11-14T18:00:29+01:00.<br></footer></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,801 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>Multisite Language Switcher » \MslsOptionsQueryDay</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">Multisite Language Switcher</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Msls.html"><i class="icon-folder-open"></i> Msls</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul><li>todo 
+                <span class="label label-info">3</span>
+</li></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public inherited"><a href="#method___construct" title="__construct :: Constructor"><span class="description">Constructor</span><pre>__construct()</pre></a></li>
+<li class="method public inherited"><a href="#method___get" title='__get :: "Magic" get arg'><span class="description">"Magic" get arg</span><pre>__get()</pre></a></li>
+<li class="method public inherited"><a href="#method___isset" title='__isset :: "Magic" isset'><span class="description">"Magic" isset</span><pre>__isset()</pre></a></li>
+<li class="method public inherited"><a href="#method___set" title='__set :: "Magic" set arg'><span class="description">"Magic" set arg</span><pre>__set()</pre></a></li>
+<li class="method public inherited"><a href="#method___unset" title='__unset :: "Magic" unset'><span class="description">"Magic" unset</span><pre>__unset()</pre></a></li>
+<li class="method public inherited"><a href="#method_create" title="create :: Factory method"><span class="description">Factory method</span><pre>create()</pre></a></li>
+<li class="method public inherited"><a href="#method_delete" title="delete :: Delete"><span class="description">Delete</span><pre>delete()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_arr" title="get_arr :: Get args-array"><span class="description">Get args-array</span><pre>get_arr()</pre></a></li>
+<li class="method public "><a href="#method_get_current_link" title="get_current_link :: Get current link"><span class="description">Get current link</span><pre>get_current_link()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_flag_url" title="get_flag_url :: Get flag url"><span class="description">Get flag url</span><pre>get_flag_url()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_order" title="get_order :: Get order"><span class="description">Get order</span><pre>get_order()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_permalink" title="get_permalink :: Get permalink"><span class="description">Get permalink</span><pre>get_permalink()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_postlink" title="get_postlink :: Get postlink"><span class="description">Get postlink</span><pre>get_postlink()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_url" title="get_url :: Get url"><span class="description">Get url</span><pre>get_url()</pre></a></li>
+<li class="method public "><a href="#method_has_value" title="has_value :: Check if the array has an non empty item which has $language as a key"><span class="description">Check if the array has an non empty item which has $language as a key</span><pre>has_value()</pre></a></li>
+<li class="method public inherited"><a href="#method_instance" title="instance :: Instance"><span class="description">Instance</span><pre>instance()</pre></a></li>
+<li class="method public inherited"><a href="#method_is_content_filter" title="is_content_filter :: Is content"><span class="description">Is content</span><pre>is_content_filter()</pre></a></li>
+<li class="method public inherited"><a href="#method_is_empty" title="is_empty :: Check if the array is empty"><span class="description">Check if the array is empty</span><pre>is_empty()</pre></a></li>
+<li class="method public inherited"><a href="#method_is_excluded" title="is_excluded :: Is excluded"><span class="description">Is excluded</span><pre>is_excluded()</pre></a></li>
+<li class="method public inherited"><a href="#method_reset" title="reset :: Reset all"><span class="description">Reset all</span><pre>reset()</pre></a></li>
+<li class="method public inherited"><a href="#method_save" title="save :: Save"><span class="description">Save</span><pre>save()</pre></a></li>
+<li class="method public inherited"><a href="#method_set" title="set :: Set"><span class="description">Set</span><pre>set()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul><li class="method protected inherited"><a href="#method_get_base" title="get_base :: Get base"><span class="description">Get base</span><pre>get_base()</pre></a></li></ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="property protected inherited"><a href="#property_args" title="$args :: Args"><span class="description"></span><pre>$args</pre></a></li>
+<li class="property protected inherited"><a href="#property_arr" title="$arr :: An array as a generic container for all vars"><span class="description"></span><pre>$arr</pre></a></li>
+<li class="property protected inherited"><a href="#property_autoload" title="$autoload :: Autoload"><span class="description"></span><pre>$autoload</pre></a></li>
+<li class="property protected inherited"><a href="#property_base" title="$base :: Base"><span class="description"></span><pre>$base</pre></a></li>
+<li class="property protected inherited"><a href="#property_exists" title="$exists :: Exists"><span class="description"></span><pre>$exists</pre></a></li>
+<li class="property protected inherited"><a href="#property_name" title="$name :: Name"><span class="description"></span><pre>$name</pre></a></li>
+<li class="property protected inherited"><a href="#property_sep" title="$sep :: Separator"><span class="description"></span><pre>$sep</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\MslsOptionsQueryDay"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/MslsOptionsQueryDay.html">MslsOptionsQueryDay</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">OptionsQueryDay</p>
+<div class="details">
+<div class="long_description"><pre><code>$obj = new MslsGetSet;
+$obj->test = 'This is just a test';
+echo $obj->test;
+</code></pre></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Msls.Options.html">Msls</a></td>
+</tr>
+<tr>
+<th>subpackage</th>
+<td>Options</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method___construct"></a><div class="element clickable method public method___construct" data-toggle="collapse" data-target=".method___construct .collapse">
+<h2>Constructor</h2>
+<pre>__construct() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::__construct()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::__construct()</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="method___get"></a><div class="element clickable method public method___get" data-toggle="collapse" data-target=".method___get .collapse">
+<h2>"Magic" get arg</h2>
+<pre>__get(mixed $key) : mixed</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::__get()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::__get()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::__get()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$key</h4>
+<code>mixed</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>mixed</code></div>
+</div></div>
+</div>
+<a id="method___isset"></a><div class="element clickable method public method___isset" data-toggle="collapse" data-target=".method___isset .collapse">
+<h2>"Magic" isset</h2>
+<pre>__isset(mixed $key) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::__isset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::__isset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::__isset()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$key</h4>
+<code>mixed</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method___set"></a><div class="element clickable method public method___set" data-toggle="collapse" data-target=".method___set .collapse">
+<h2>"Magic" set arg</h2>
+<pre>__set(mixed $key, mixed $value) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::__set()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::__set()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::__set()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$key</h4>
+<code>mixed</code>
+</div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>mixed</code>
+</div>
+</div></div>
+</div>
+<a id="method___unset"></a><div class="element clickable method public method___unset" data-toggle="collapse" data-target=".method___unset .collapse">
+<h2>"Magic" unset</h2>
+<pre>__unset(mixed $key) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::__unset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::__unset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::__unset()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$key</h4>
+<code>mixed</code>
+</div>
+</div></div>
+</div>
+<a id="method_create"></a><div class="element clickable method public method_create" data-toggle="collapse" data-target=".method_create .collapse">
+<h2>Factory method</h2>
+<pre>create() : \MslsQueryOptions</pre>
+<div class="labels">
+<span class="label">Inherited</span><span class="label">Static</span>
+</div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::create()</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response"><code>\MslsQueryOptions</code></div>
+</div></div>
+</div>
+<a id="method_delete"></a><div class="element clickable method public method_delete" data-toggle="collapse" data-target=".method_delete .collapse">
+<h2>Delete</h2>
+<pre>delete() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::delete()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::delete()</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="method_get_arr"></a><div class="element clickable method public method_get_arr" data-toggle="collapse" data-target=".method_get_arr .collapse">
+<h2>Get args-array</h2>
+<pre>get_arr() : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><pre><code>$obj = new MslsGetSet;
+$obj->temp = 'test';
+$val = $obj->get_arr(); // array( 'temp' => 'test' ) == $val
+</code></pre></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::get_arr()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_arr()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_arr()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_get_current_link"></a><div class="element clickable method public method_get_current_link" data-toggle="collapse" data-target=".method_get_current_link .collapse">
+<h2>Get current link</h2>
+<pre>get_current_link() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_get_flag_url"></a><div class="element clickable method public method_get_flag_url" data-toggle="collapse" data-target=".method_get_flag_url .collapse">
+<h2>Get flag url</h2>
+<pre>get_flag_url(string $language) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_flag_url()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_flag_url()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$language</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_get_order"></a><div class="element clickable method public method_get_order" data-toggle="collapse" data-target=".method_get_order .collapse">
+<h2>Get order</h2>
+<pre>get_order() : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_order()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_order()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_get_permalink"></a><div class="element clickable method public method_get_permalink" data-toggle="collapse" data-target=".method_get_permalink .collapse">
+<h2>Get permalink</h2>
+<pre>get_permalink(string $language) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_permalink()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_permalink()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$language</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_get_postlink"></a><div class="element clickable method public method_get_postlink" data-toggle="collapse" data-target=".method_get_postlink .collapse">
+<h2>Get postlink</h2>
+<pre>get_postlink(string $language) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_postlink()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$language</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_get_url"></a><div class="element clickable method public method_get_url" data-toggle="collapse" data-target=".method_get_url .collapse">
+<h2>Get url</h2>
+<pre>get_url(string $dir) : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_url()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_url()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$dir</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_has_value"></a><div class="element clickable method public method_has_value" data-toggle="collapse" data-target=".method_has_value .collapse">
+<h2>Check if the array has an non empty item which has $language as a key</h2>
+<pre>has_value(string $language) : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><pre><code>$obj = new MslsGetSet;
+$val = $obj->has_value( 'temp' ); // false == $val
+$obj->temp = 'test';
+$val = $obj->has_value( 'temp' ); // true == $val
+</code></pre></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$language</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_instance"></a><div class="element clickable method public method_instance" data-toggle="collapse" data-target=".method_instance .collapse">
+<h2>Instance</h2>
+<pre>instance() : <a href="../classes/MslsOptions.html">\MslsOptions</a></pre>
+<div class="labels">
+<span class="label">Inherited</span><span class="label">Static</span>
+</div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::instance()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::instance()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code><a href="../classes/MslsOptions.html">\MslsOptions</a></code></div>
+</div></div>
+</div>
+<a id="method_is_content_filter"></a><div class="element clickable method public method_is_content_filter" data-toggle="collapse" data-target=".method_is_content_filter .collapse">
+<h2>Is content</h2>
+<pre>is_content_filter() : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::is_content_filter()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::is_content_filter()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_is_empty"></a><div class="element clickable method public method_is_empty" data-toggle="collapse" data-target=".method_is_empty .collapse">
+<h2>Check if the array is empty</h2>
+<pre>is_empty() : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><pre><code>$obj = new MslsGetSet;
+$val = $obj->is_empty(); // true == $val
+$obj->temp = 'test';
+$val = $obj->is_empty(); // false == $val
+</code></pre></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::is_empty()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::is_empty()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::is_empty()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_is_excluded"></a><div class="element clickable method public method_is_excluded" data-toggle="collapse" data-target=".method_is_excluded .collapse">
+<h2>Is excluded</h2>
+<pre>is_excluded() : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::is_excluded()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::is_excluded()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_reset"></a><div class="element clickable method public method_reset" data-toggle="collapse" data-target=".method_reset .collapse">
+<h2>Reset all</h2>
+<pre>reset() : <a href="../classes/MslsGetSet.html">\MslsGetSet</a></pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><pre><code>$obj = new MslsGetSet;
+$obj->temp = 'test';
+$obj->reset();
+$val = $obj->get_arr(); // array() == $val
+</code></pre></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::reset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::reset()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::reset()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code><a href="../classes/MslsGetSet.html">\MslsGetSet</a></code></div>
+</div></div>
+</div>
+<a id="method_save"></a><div class="element clickable method public method_save" data-toggle="collapse" data-target=".method_save .collapse">
+<h2>Save</h2>
+<pre>save(mixed $arr) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::save()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::save()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>mixed</code>
+</div>
+</div></div>
+</div>
+<a id="method_set"></a><div class="element clickable method public method_set" data-toggle="collapse" data-target=".method_set .collapse">
+<h2>Set</h2>
+<pre>set(mixed $arr) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::set()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::set()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>mixed</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_get_base"></a><div class="element clickable method protected method_get_base" data-toggle="collapse" data-target=".method_get_base .collapse">
+<h2>Get base</h2>
+<pre>get_base() : null</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::get_base()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::get_base()</td>
+</tr>
+</table>
+<h3>Returns</h3>
+<div class="subelement response"><code>null</code></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_args"> </a><div class="element clickable property protected property_args" data-toggle="collapse" data-target=".property_args .collapse">
+<h2></h2>
+<pre>$args : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$args</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$args</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_arr"> </a><div class="element clickable property protected property_arr" data-toggle="collapse" data-target=".property_arr .collapse">
+<h2></h2>
+<pre>$arr : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsGetSet::$$arr</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$arr</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$arr</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_autoload"> </a><div class="element clickable property protected property_autoload" data-toggle="collapse" data-target=".property_autoload .collapse">
+<h2></h2>
+<pre>$autoload : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$autoload</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$autoload</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_base"> </a><div class="element clickable property protected property_base" data-toggle="collapse" data-target=".property_base .collapse">
+<h2></h2>
+<pre>$base : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$base</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$base</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_exists"> </a><div class="element clickable property protected property_exists" data-toggle="collapse" data-target=".property_exists .collapse">
+<h2></h2>
+<pre>$exists : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$exists</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$exists</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_name"> </a><div class="element clickable property protected property_name" data-toggle="collapse" data-target=".property_name .collapse">
+<h2></h2>
+<pre>$name : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$name</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$name</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_sep"> </a><div class="element clickable property protected property_sep" data-toggle="collapse" data-target=".property_sep .collapse">
+<h2></h2>
+<pre>$sep : string</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptions::$$sep</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\MslsOptionsQuery::$$sep</td>
+</tr>
+</table>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a11</a> and<br>
+            generated on 2012-11-14T18:00:29+01:00.<br></footer></div>
+</div>
+</body>
+</html>
