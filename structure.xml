@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project version="2.0.0a11" title="Multisite Language Switcher">
-  <file path="MultisiteLanguageSwitcher.php" hash="f131121f3553adc615b238d44584ef20" package="Default">
+  <file path="MultisiteLanguageSwitcher.php" hash="bee7aaa5431ad8f6023a8eef1c23d82a" package="Default">
     <docblock line="29">
       <description>MultisiteLanguageSwitcher</description>
       <long-description/>
@@ -25,83 +25,83 @@
       <full_name>\MSLS_PLUGIN__FILE__</full_name>
       <value>__FILE__</value>
     </constant>
-    <function namespace="global" line="117" package="Msls\Start">
+    <function namespace="global" line="123" package="Msls\Start">
       <name>msls_content_filter</name>
       <full_name>\msls_content_filter</full_name>
-      <docblock line="109">
+      <docblock line="115">
         <description>Filter for the_content()</description>
         <long-description/>
-        <tag line="109" name="package" description="Msls"/>
-        <tag line="109" name="subpackage" description="Start"/>
-        <tag line="109" name="uses" description="\global\MslsOptions" refers="\global\MslsOptions"/>
-        <tag line="109" name="param" description="" type="string" variable="$content">
+        <tag line="115" name="package" description="Msls"/>
+        <tag line="115" name="subpackage" description="Start"/>
+        <tag line="115" name="uses" description="\global\MslsOptions" refers="\global\MslsOptions"/>
+        <tag line="115" name="param" description="" type="string" variable="$content">
           <type by_reference="false">string</type>
         </tag>
-        <tag line="109" name="return" description="" type="string">
+        <tag line="115" name="return" description="" type="string">
           <type by_reference="false">string</type>
         </tag>
       </docblock>
-      <argument line="117">
+      <argument line="123">
         <name>$content</name>
         <default/>
         <type/>
       </argument>
     </function>
-    <function namespace="global" line="137" package="Msls\Start">
+    <function namespace="global" line="143" package="Msls\Start">
       <name>msls_filter_string</name>
       <full_name>\msls_filter_string</full_name>
-      <docblock line="128">
+      <docblock line="134">
         <description>Create filterstring for msls_content_filter()</description>
         <long-description/>
-        <tag line="128" name="package" description="Msls"/>
-        <tag line="128" name="subpackage" description="Start"/>
-        <tag line="128" name="uses" description="\global\MslsOutput" refers="\global\MslsOutput"/>
-        <tag line="128" name="param" description="" type="string" variable="$pref">
+        <tag line="134" name="package" description="Msls"/>
+        <tag line="134" name="subpackage" description="Start"/>
+        <tag line="134" name="uses" description="\global\MslsOutput" refers="\global\MslsOutput"/>
+        <tag line="134" name="param" description="" type="string" variable="$pref">
           <type by_reference="false">string</type>
         </tag>
-        <tag line="128" name="param" description="" type="string" variable="$post">
+        <tag line="134" name="param" description="" type="string" variable="$post">
           <type by_reference="false">string</type>
         </tag>
-        <tag line="128" name="return" description="" type="string">
+        <tag line="134" name="return" description="" type="string">
           <type by_reference="false">string</type>
         </tag>
       </docblock>
-      <argument line="137">
+      <argument line="143">
         <name>$pref</name>
         <default>'&lt;p id="msls"&gt;'</default>
         <type/>
       </argument>
-      <argument line="137">
+      <argument line="143">
         <name>$post</name>
         <default>'&lt;/p&gt;'</default>
         <type/>
       </argument>
     </function>
-    <function namespace="global" line="169" package="Msls\Start">
+    <function namespace="global" line="175" package="Msls\Start">
       <name>get_the_msls</name>
       <full_name>\get_the_msls</full_name>
-      <docblock line="162">
+      <docblock line="168">
         <description>Get the output for using the links to the translations in your code</description>
         <long-description/>
-        <tag line="162" name="return" description="" type="string">
+        <tag line="168" name="return" description="" type="string">
           <type by_reference="false">string</type>
         </tag>
-        <tag line="162" name="package" description="Msls"/>
-        <tag line="162" name="subpackage" description="Start"/>
-        <tag line="162" name="see" description="\global\the_msls()" refers="\global\the_msls()"/>
+        <tag line="168" name="package" description="Msls"/>
+        <tag line="168" name="subpackage" description="Start"/>
+        <tag line="168" name="see" description="\global\the_msls()" refers="\global\the_msls()"/>
       </docblock>
     </function>
-    <function namespace="global" line="183" package="Msls\Start">
+    <function namespace="global" line="189" package="Msls\Start">
       <name>the_msls</name>
       <full_name>\the_msls</full_name>
-      <docblock line="174">
+      <docblock line="180">
         <description>Output the links to the translations in your template</description>
         <long-description>&lt;p&gt;You can call of this function directly like that&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;if ( function_exists ( 'the_msls' ) ) the_msls();&lt;/code&gt;&lt;/pre&gt;</long-description>
-        <tag line="174" name="package" description="Msls"/>
-        <tag line="174" name="subpackage" description="Start"/>
-        <tag line="174" name="uses" description="\global\get_the_msls()" refers="\global\get_the_msls()"/>
+        <tag line="180" name="package" description="Msls"/>
+        <tag line="180" name="subpackage" description="Start"/>
+        <tag line="180" name="uses" description="\global\get_the_msls()" refers="\global\get_the_msls()"/>
       </docblock>
     </function>
     <interface namespace="global" line="68" package="Msls\Start">
@@ -243,7 +243,7 @@
       </method>
     </class>
   </file>
-  <file path="includes/MslsAdmin.php" hash="05331def91e4ddd93155547e37b16ead" package="Default">
+  <file path="includes/MslsAdmin.php" hash="d597691ec844ec7dfd5f3db2e9704ed1" package="Default">
     <docblock line="2">
       <description>MslsAdmin</description>
       <long-description/>
@@ -268,252 +268,252 @@
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="43" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="48" package="Msls\Main">
         <name>warning</name>
         <full_name>warning</full_name>
-        <docblock line="40">
+        <docblock line="45">
           <description>There is something wrong? Here comes the message .</description>
           <long-description>&lt;p&gt;..&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="62" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="67" package="Msls\Main">
         <name>render</name>
         <full_name>render</full_name>
-        <docblock line="59">
+        <docblock line="64">
           <description>Render the options-page</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="80" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="85" package="Msls\Main">
         <name>subsubsub</name>
         <full_name>subsubsub</full_name>
-        <docblock line="77">
+        <docblock line="82">
           <description>Create a submenu which contains links to all blogs of the current user</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="107" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="112" package="Msls\Main">
         <name>register</name>
         <full_name>register</full_name>
-        <docblock line="104">
+        <docblock line="109">
           <description>Register the form-elements</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="133" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="138" package="Msls\Main">
         <name>section</name>
         <full_name>section</full_name>
-        <docblock line="130">
+        <docblock line="135">
           <description>Section is just a placeholder for now</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="138" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="143" package="Msls\Main">
         <name>display</name>
         <full_name>display</full_name>
-        <docblock line="135">
+        <docblock line="140">
           <description>Shows the select-form-field 'display'</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="152" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="157" package="Msls\Main">
         <name>sort_by_description</name>
         <full_name>sort_by_description</full_name>
-        <docblock line="146">
+        <docblock line="151">
           <description>Show sort_by_description-field</description>
           <long-description>&lt;p&gt;You can decide that the ouput will be sorted by the description. If not
 the output will be sorted by the language-code.&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="162" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="167" package="Msls\Main">
         <name>exclude_current_blog</name>
         <full_name>exclude_current_blog</full_name>
-        <docblock line="156">
+        <docblock line="161">
           <description>Exclude the current blog</description>
           <long-description>&lt;p&gt;You can exclude a blog explicitly. All your settings will be safe but the
 plugin will ignore this blog while this option is active.&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="172" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="177" package="Msls\Main">
         <name>only_with_translation</name>
         <full_name>only_with_translation</full_name>
-        <docblock line="166">
+        <docblock line="171">
           <description>Show only a link  if a translation is available</description>
           <long-description>&lt;p&gt;Some user requested this feature. Shows only links to available
 translations.&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="182" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="187" package="Msls\Main">
         <name>output_current_blog</name>
         <full_name>output_current_blog</full_name>
-        <docblock line="176">
+        <docblock line="181">
           <description>Show a link to the current blog</description>
           <long-description>&lt;p&gt;Some user requested this feature. If active the plugin will place also a
 link to the current blog.&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="191" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="196" package="Msls\Main">
         <name>description</name>
         <full_name>description</full_name>
-        <docblock line="186">
+        <docblock line="191">
           <description>The description for the current blog</description>
           <long-description>&lt;p&gt;The language will be used ff there is no description.&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="198" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="203" package="Msls\Main">
         <name>before_output</name>
         <full_name>before_output</full_name>
-        <docblock line="195">
+        <docblock line="200">
           <description>A String which will be placed before the output of the list</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="205" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="210" package="Msls\Main">
         <name>after_output</name>
         <full_name>after_output</full_name>
-        <docblock line="202">
+        <docblock line="207">
           <description>A String which will be placed after the output of the list</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="212" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="217" package="Msls\Main">
         <name>before_item</name>
         <full_name>before_item</full_name>
-        <docblock line="209">
+        <docblock line="214">
           <description>A String which will be placed before every item of the list</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="219" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="224" package="Msls\Main">
         <name>after_item</name>
         <full_name>after_item</full_name>
-        <docblock line="216">
+        <docblock line="221">
           <description>A String which will be placed after every item of the list</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="226" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="231" package="Msls\Main">
         <name>content_filter</name>
         <full_name>content_filter</full_name>
-        <docblock line="223">
+        <docblock line="228">
           <description>The output can be placed after the_content</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="237" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="242" package="Msls\Main">
         <name>content_priority</name>
         <full_name>content_priority</full_name>
-        <docblock line="230">
+        <docblock line="235">
           <description>If the output in the_content is active you can set the priority too</description>
           <long-description>&lt;p&gt;Default is 10. But may be there are other plugins active and you run into
 trouble. So you can decide a higher (from 1) or a lower (to 100) priority
 for the output&lt;/p&gt;</long-description>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="253" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="258" package="Msls\Main">
         <name>image_url</name>
         <full_name>image_url</full_name>
-        <docblock line="248">
+        <docblock line="253">
           <description>Alternative image-url</description>
           <long-description/>
-          <tag line="248" name="todo" description="This is a value of a directory-url which should be more clear"/>
+          <tag line="253" name="todo" description="This is a value of a directory-url which should be more clear"/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="263" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="268" package="Msls\Main">
         <name>render_checkbox</name>
         <full_name>render_checkbox</full_name>
-        <docblock line="257">
+        <docblock line="262">
           <description>Render form-element (checkbox)</description>
           <long-description/>
-          <tag line="257" name="param" description="Name and ID of the form-element" type="string" variable="$key">
+          <tag line="262" name="param" description="Name and ID of the form-element" type="string" variable="$key">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="257" name="return" description="HTML-Code of the checkbox" type="string">
+          <tag line="262" name="return" description="HTML-Code of the checkbox" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
-        <argument line="263">
+        <argument line="268">
           <name>$key</name>
           <default/>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="278" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="283" package="Msls\Main">
         <name>render_input</name>
         <full_name>render_input</full_name>
-        <docblock line="271">
+        <docblock line="276">
           <description>Render form-element (text-input)</description>
           <long-description/>
-          <tag line="271" name="param" description="Name and ID of the form-element" type="string" variable="$key">
+          <tag line="276" name="param" description="Name and ID of the form-element" type="string" variable="$key">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="271" name="param" description="Size-attribute of the input-field" type="string" variable="$size">
+          <tag line="276" name="param" description="Size-attribute of the input-field" type="string" variable="$size">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="271" name="return" description="HTML-code of the input-field" type="string">
+          <tag line="276" name="return" description="HTML-code of the input-field" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
-        <argument line="278">
+        <argument line="283">
           <name>$key</name>
           <default/>
           <type/>
         </argument>
-        <argument line="278">
+        <argument line="283">
           <name>$size</name>
           <default>'30'</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="295" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="300" package="Msls\Main">
         <name>render_select</name>
         <full_name>render_select</full_name>
-        <docblock line="287">
+        <docblock line="292">
           <description>Render form-element (select)</description>
           <long-description/>
-          <tag line="287" name="param" description="Name and ID of the form-element" type="string" variable="$key">
+          <tag line="292" name="param" description="Name and ID of the form-element" type="string" variable="$key">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="287" name="param" description="Options as associative array" type="array" variable="$arr">
+          <tag line="292" name="param" description="Options as associative array" type="array" variable="$arr">
             <type by_reference="false">array</type>
           </tag>
-          <tag line="287" name="param" description="Values which should be selected" type="string" variable="$selected">
+          <tag line="292" name="param" description="Values which should be selected" type="string" variable="$selected">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="287" name="return" description="HTML-code of the select-input" type="string">
+          <tag line="292" name="return" description="HTML-code of the select-input" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
-        <argument line="295">
+        <argument line="300">
           <name>$key</name>
           <default/>
           <type/>
         </argument>
-        <argument line="295">
+        <argument line="300">
           <name>$arr</name>
           <default/>
           <type>array</type>
         </argument>
-        <argument line="295">
+        <argument line="300">
           <name>$selected</name>
           <default/>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="318" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="323" package="Msls\Main">
         <name>validate</name>
         <full_name>validate</full_name>
-        <docblock line="312">
+        <docblock line="317">
           <description>Validates input before saving it</description>
           <long-description/>
-          <tag line="312" name="param" description="Values of the submitted form" type="array" variable="$input">
+          <tag line="317" name="param" description="Values of the submitted form" type="array" variable="$input">
             <type by_reference="false">array</type>
           </tag>
-          <tag line="312" name="return" description="Validated input" type="array">
+          <tag line="317" name="return" description="Validated input" type="array">
             <type by_reference="false">array</type>
           </tag>
         </docblock>
-        <argument line="318">
+        <argument line="323">
           <name>$input</name>
           <default/>
           <type>array</type>
@@ -1037,7 +1037,7 @@ listings of various taxonomies</description>
   <file path="includes/MslsGetSet.php" hash="01393d8f4635ce4cef91ef04f77bc16b" package="Default">
     <docblock line="2">
       <description>MslsGetSet</description>
-      <long-description></long-description>
+      <long-description/>
       <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
       <tag line="2" name="since" description="0.9.8"/>
     </docblock>
@@ -1059,7 +1059,7 @@ echo $obj-&gt;test;
         <default>array()</default>
         <docblock line="21">
           <description>A generic container for all properties of an instance</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="var" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -1070,7 +1070,7 @@ echo $obj-&gt;test;
         <full_name>__set</full_name>
         <docblock line="27">
           <description>set (overloaded)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="27" name="param" description="" type="mixed" variable="$key">
             <type by_reference="false">mixed</type>
           </tag>
@@ -1080,12 +1080,12 @@ echo $obj-&gt;test;
         </docblock>
         <argument line="32">
           <name>$key</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="32">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1094,7 +1094,7 @@ echo $obj-&gt;test;
         <full_name>__get</full_name>
         <docblock line="38">
           <description>get (overloaded)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="" type="mixed" variable="$key">
             <type by_reference="false">mixed</type>
           </tag>
@@ -1104,7 +1104,7 @@ echo $obj-&gt;test;
         </docblock>
         <argument line="43">
           <name>$key</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1113,7 +1113,7 @@ echo $obj-&gt;test;
         <full_name>__isset</full_name>
         <docblock line="47">
           <description>isset (overloaded)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="47" name="param" description="" type="mixed" variable="$key">
             <type by_reference="false">mixed</type>
           </tag>
@@ -1123,7 +1123,7 @@ echo $obj-&gt;test;
         </docblock>
         <argument line="52">
           <name>$key</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1132,14 +1132,14 @@ echo $obj-&gt;test;
         <full_name>__unset</full_name>
         <docblock line="56">
           <description>unset (overloaded)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="56" name="param" description="" type="mixed" variable="$key">
             <type by_reference="false">mixed</type>
           </tag>
         </docblock>
         <argument line="60">
           <name>$key</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1185,7 +1185,7 @@ $val = $obj-&gt;has_value( 'temp' ); // true == $val
         </docblock>
         <argument line="99">
           <name>$key</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1265,7 +1265,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
       </method>
     </class>
   </file>
-  <file path="includes/MslsLink.php" hash="51fe04579d0778bb75f4e91c7ca25bf1" package="Default">
+  <file path="includes/MslsLink.php" hash="0ee67165a1f56b6f3575dd99ed8c63e2" package="Default">
     <docblock line="2">
       <description>MslsLink</description>
       <long-description/>
@@ -1283,85 +1283,170 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <tag line="9" name="subpackage" description="Link"/>
       </docblock>
       <property final="false" static="false" visibility="protected" line="21" namespace="global" package="Default">
-        <name>$args</name>
-        <default>array()</default>
-        <docblock line="17">
-          <description>Arguments</description>
-          <long-description/>
-          <tag line="17" name="var" description="" type="array">
-            <type by_reference="false">array</type>
-          </tag>
-        </docblock>
-      </property>
-      <property final="false" static="false" visibility="protected" line="27" namespace="global" package="Default">
         <name>$format_string</name>
         <default>'&lt;img src="{src}" alt="{alt}"/&gt; {txt}'</default>
-        <docblock line="23">
+        <docblock line="17">
           <description>Output format</description>
           <long-description/>
-          <tag line="23" name="var" description="" type="string">
+          <tag line="17" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </property>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="33" package="Msls\Link">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="27" package="Msls\Link">
         <name>get_types</name>
         <full_name>get_types</full_name>
-        <docblock line="29">
+        <docblock line="23">
           <description>Get link types</description>
           <long-description/>
-          <tag line="29" name="return" description="" type="array">
+          <tag line="23" name="return" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="46" package="Msls\Link">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="40" package="Msls\Link">
         <name>get_description</name>
         <full_name>get_description</full_name>
-        <docblock line="42">
+        <docblock line="36">
           <description>Get link description</description>
           <long-description/>
-          <tag line="42" name="return" description="" type="string">
+          <tag line="36" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="54" package="Msls\Link">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="48" package="Msls\Link">
         <name>get_types_description</name>
         <full_name>get_types_description</full_name>
-        <docblock line="50">
+        <docblock line="44">
           <description>Get array with all link descriptions</description>
           <long-description/>
-          <tag line="50" name="return" description="" type="array">
+          <tag line="44" name="return" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="70" package="Msls\Link">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="63" package="Msls\Link">
         <name>create</name>
         <full_name>create</full_name>
-        <docblock line="65">
+        <docblock line="58">
           <description>Factory: Create a specific instance of MslsLink</description>
           <long-description/>
-          <tag line="65" name="param" description="" type="int" variable="$display">
+          <tag line="58" name="param" description="" type="int" variable="$display">
             <type by_reference="false">int</type>
           </tag>
-          <tag line="65" name="return" description="" type="\MslsLink">
+          <tag line="58" name="return" description="" type="\MslsLink">
             <type by_reference="false">\MslsLink</type>
           </tag>
         </docblock>
-        <argument line="70">
+        <argument line="63">
           <name>$display</name>
           <default/>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="85" package="Msls\Link">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="78" package="Msls\Link">
         <name>__toString</name>
         <full_name>__toString</full_name>
-        <docblock line="82">
+        <docblock line="75">
           <description>Handles the request to print the object</description>
           <long-description/>
+        </docblock>
+      </method>
+    </class>
+  </file>
+  <file path="includes/MslsJson.php" hash="8ccc117dde062801558fefc90fb57ce2" package="Default">
+    <docblock line="2">
+      <description>MslsJson</description>
+      <long-description></long-description>
+      <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
+      <tag line="2" name="since" description="0.9.9"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="global" line="13" package="Msls\Main">
+      <extends/>
+      <name>MslsJson</name>
+      <full_name>\MslsJson</full_name>
+      <docblock line="8">
+        <description>Container for an array which will used in JavaScript as JSON object</description>
+        <long-description></long-description>
+        <tag line="8" name="package" description="Msls"/>
+        <tag line="8" name="subpackage" description="Main"/>
+      </docblock>
+      <property final="false" static="false" visibility="protected" line="19" namespace="global" package="Default">
+        <name>$arr</name>
+        <default>array()</default>
+        <docblock line="15">
+          <description>Container</description>
+          <long-description></long-description>
+          <tag line="15" name="var" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="27" package="Msls\Main">
+        <name>add</name>
+        <full_name>add</full_name>
+        <docblock line="21">
+          <description>add</description>
+          <long-description></long-description>
+          <tag line="21" name="param" description="" type="int" variable="$value">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="21" name="param" description="" type="string" variable="$label">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="21" name="return" description="" type="\MslsJson">
+            <type by_reference="false">\MslsJson</type>
+          </tag>
+        </docblock>
+        <argument line="27">
+          <name>$value</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="27">
+          <name>$label</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="38" package="Msls\Main">
+        <name>compare</name>
+        <full_name>compare</full_name>
+        <docblock line="32">
+          <description>compare</description>
+          <long-description></long-description>
+          <tag line="32" name="param" description="" type="array" variable="$a">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="32" name="param" description="" type="array" variable="$b">
+            <type by_reference="false">array</type>
+          </tag>
+          <tag line="32" name="return" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="38">
+          <name>$a</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+        <argument line="38">
+          <name>$b</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="49" package="Msls\Main">
+        <name>__toString</name>
+        <full_name>__toString</full_name>
+        <docblock line="42">
+          <description>__toString</description>
+          <long-description>&lt;p&gt;Sort the array container by labele and convert it to a JSON-ified
+string&lt;/p&gt;</long-description>
+          <tag line="42" name="return" description="" type="string">
+            <type by_reference="false">string</type>
+          </tag>
         </docblock>
       </method>
     </class>
@@ -1486,9 +1571,9 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
       </method>
     </class>
   </file>
-  <file path="includes/MslsMetaBox.php" hash="675124666896b0533b3293600b1ec5de" package="Default">
+  <file path="includes/MslsMetaBox.php" hash="9fcf01750671182f12c1cfd3b4fdf263" package="Default">
     <docblock line="2">
-      <description>MslsetaBox</description>
+      <description>MslsMetaBox</description>
       <long-description/>
       <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
       <tag line="2" name="since" description="0.9.8"/>
@@ -1503,41 +1588,50 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <tag line="8" name="package" description="Msls"/>
         <tag line="8" name="subpackage" description="Main"/>
       </docblock>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="18" package="Msls\Main">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="21" package="Msls\Main">
+        <name>suggest</name>
+        <full_name>suggest</full_name>
+        <docblock line="15">
+          <description>Suggest</description>
+          <long-description>&lt;p&gt;Echo a JSON-ified array of posts of the given post-type and
+the requested search-term and then die silently&lt;/p&gt;</long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="48" package="Msls\Main">
         <name>init</name>
         <full_name>init</full_name>
-        <docblock line="15">
+        <docblock line="45">
           <description>Init</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="31" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="61" package="Msls\Main">
         <name>add</name>
         <full_name>add</full_name>
-        <docblock line="28">
+        <docblock line="58">
           <description>Add</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="48" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="78" package="Msls\Main">
         <name>render</name>
         <full_name>render</full_name>
-        <docblock line="45">
+        <docblock line="75">
           <description>Render</description>
           <long-description/>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="133" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="129" package="Msls\Main">
         <name>set</name>
         <full_name>set</full_name>
-        <docblock line="129">
+        <docblock line="125">
           <description>Set</description>
           <long-description/>
-          <tag line="129" name="param" description="" type="int" variable="$post_id">
+          <tag line="125" name="param" description="" type="int" variable="$post_id">
             <type by_reference="false">int</type>
           </tag>
         </docblock>
-        <argument line="133">
+        <argument line="129">
           <name>$post_id</name>
           <default/>
           <type/>
@@ -1548,7 +1642,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
   <file path="includes/MslsOptions.php" hash="1286e0a97da0b1f98463368252d922ef" package="Default">
     <docblock line="2">
       <description>MslsOptions</description>
-      <long-description></long-description>
+      <long-description/>
       <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
       <tag line="2" name="since" description="0.9.8"/>
     </docblock>
@@ -1559,16 +1653,16 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
       <full_name>\MslsOptions</full_name>
       <docblock line="8">
         <description>General options class</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="8" name="package" description="Msls"/>
         <tag line="8" name="subpackage" description="Options"/>
       </docblock>
       <property final="false" static="false" visibility="protected" line="19" namespace="global" package="Default">
         <name>$args</name>
-        <default></default>
+        <default/>
         <docblock line="15">
           <description>Args</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="15" name="var" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -1576,10 +1670,10 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
       </property>
       <property final="false" static="false" visibility="protected" line="25" namespace="global" package="Default">
         <name>$name</name>
-        <default></default>
+        <default/>
         <docblock line="21">
           <description>Name</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1590,7 +1684,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <default>false</default>
         <docblock line="27">
           <description>Exists</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="27" name="var" description="" type="bool">
             <type by_reference="false">bool</type>
           </tag>
@@ -1601,7 +1695,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <default>''</default>
         <docblock line="33">
           <description>Separator</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="33" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1612,7 +1706,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <default>'yes'</default>
         <docblock line="39">
           <description>Autoload</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="39" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1620,10 +1714,10 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
       </property>
       <property final="false" static="false" visibility="protected" line="49" namespace="global" package="Default">
         <name>$base</name>
-        <default></default>
+        <default/>
         <docblock line="45">
           <description>Base</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="45" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1634,7 +1728,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>create</full_name>
         <docblock line="51">
           <description>Factory method</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="51" name="param" description="" type="int" variable="$id">
             <type by_reference="false">int</type>
           </tag>
@@ -1653,7 +1747,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>__construct</full_name>
         <docblock line="77">
           <description>Constructor</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="91" package="Msls\Options">
@@ -1661,14 +1755,14 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>save</full_name>
         <docblock line="87">
           <description>Save</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="87" name="param" description="" type="mixed" variable="$arr">
             <type by_reference="false">mixed</type>
           </tag>
         </docblock>
         <argument line="91">
           <name>$arr</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1677,7 +1771,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>delete</full_name>
         <docblock line="100">
           <description>Delete</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="114" package="Msls\Options">
@@ -1685,7 +1779,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>set</full_name>
         <docblock line="109">
           <description>Set</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="109" name="param" description="" type="mixed" variable="$arr">
             <type by_reference="false">mixed</type>
           </tag>
@@ -1695,7 +1789,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         </docblock>
         <argument line="114">
           <name>$arr</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1704,7 +1798,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_base</full_name>
         <docblock line="123">
           <description>Get base</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="123" name="return" description="" type="null">
             <type by_reference="false">null</type>
           </tag>
@@ -1715,7 +1809,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_permalink</full_name>
         <docblock line="131">
           <description>Get permalink</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="131" name="param" description="" type="string" variable="$language">
             <type by_reference="false">string</type>
           </tag>
@@ -1725,7 +1819,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         </docblock>
         <argument line="136">
           <name>$language</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1734,7 +1828,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_postlink</full_name>
         <docblock line="148">
           <description>Get postlink</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="148" name="param" description="" type="string" variable="$language">
             <type by_reference="false">string</type>
           </tag>
@@ -1744,7 +1838,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         </docblock>
         <argument line="153">
           <name>$language</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1753,7 +1847,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_current_link</full_name>
         <docblock line="157">
           <description>Get current link</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="157" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1764,7 +1858,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>is_excluded</full_name>
         <docblock line="165">
           <description>Is excluded</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="165" name="return" description="" type="bool">
             <type by_reference="false">bool</type>
           </tag>
@@ -1775,7 +1869,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>is_content_filter</full_name>
         <docblock line="173">
           <description>Is content</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="173" name="return" description="" type="bool">
             <type by_reference="false">bool</type>
           </tag>
@@ -1786,7 +1880,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_order</full_name>
         <docblock line="181">
           <description>Get order</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="181" name="return" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1797,7 +1891,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_url</full_name>
         <docblock line="193">
           <description>Get url</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="193" name="param" description="" type="string" variable="$dir">
             <type by_reference="false">string</type>
           </tag>
@@ -1807,7 +1901,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         </docblock>
         <argument line="198">
           <name>$dir</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1816,7 +1910,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>get_flag_url</full_name>
         <docblock line="202">
           <description>Get flag url</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="202" name="param" description="" type="string" variable="$language">
             <type by_reference="false">string</type>
           </tag>
@@ -1826,7 +1920,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         </docblock>
         <argument line="207">
           <name>$language</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1835,7 +1929,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
         <full_name>instance</full_name>
         <docblock line="218">
           <description>Instance</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="218" name="return" description="" type="\MslsOptions">
             <type by_reference="false">\MslsOptions</type>
           </tag>
@@ -2000,7 +2094,7 @@ $val = $obj-&gt;get_arr(); // array( 'temp' =&gt; 'test' ) == $val
   <file path="includes/MslsBlogCollection.php" hash="abc286effbc4c1ecef8703c849f4275f" package="Default">
     <docblock line="2">
       <description>MslsBlogCollection</description>
-      <long-description></long-description>
+      <long-description/>
       <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
       <tag line="2" name="since" description="0.9.8"/>
     </docblock>
@@ -2018,10 +2112,10 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </docblock>
       <property final="false" static="false" visibility="private" line="22" namespace="global" package="Default">
         <name>$current_blog_id</name>
-        <default></default>
+        <default/>
         <docblock line="18">
           <description>ID of the current blog</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="18" name="var" description="" type="int">
             <type by_reference="false">int</type>
           </tag>
@@ -2029,10 +2123,10 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </property>
       <property final="false" static="false" visibility="private" line="28" namespace="global" package="Default">
         <name>$current_blog_output</name>
-        <default></default>
+        <default/>
         <docblock line="24">
           <description>True if the current blog should be in the output</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="var" description="" type="bool">
             <type by_reference="false">bool</type>
           </tag>
@@ -2043,7 +2137,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <default>array()</default>
         <docblock line="30">
           <description>Collection of MslsBlog-objects</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="30" name="var" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2051,10 +2145,10 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </property>
       <property final="false" static="false" visibility="private" line="40" namespace="global" package="Default">
         <name>$objects_order</name>
-        <default></default>
+        <default/>
         <docblock line="36">
           <description>Order output by language or description</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="36" name="var" description="" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -2062,10 +2156,10 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </property>
       <property final="false" static="false" visibility="private" line="46" namespace="global" package="Default">
         <name>$active_plugins</name>
-        <default></default>
+        <default/>
         <docblock line="42">
           <description>Active plugins in the whole network</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="42" name="var" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2076,7 +2170,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>__construct</full_name>
         <docblock line="48">
           <description>Constructor</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="105" package="Msls\Main">
@@ -2084,7 +2178,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get_current_blog_id</full_name>
         <docblock line="101">
           <description>Get the id of the current blog</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="101" name="return" description="" type="int">
             <type by_reference="false">int</type>
           </tag>
@@ -2095,7 +2189,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>has_current_blog</full_name>
         <docblock line="109">
           <description>Check if current blog is in the collection</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="109" name="return" description="" type="bool">
             <type by_reference="false">bool</type>
           </tag>
@@ -2106,7 +2200,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get_current_blog</full_name>
         <docblock line="118">
           <description>Get current blog as object</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="118" name="return" description="" type="\MslsBlog|null">
             <type by_reference="false">\MslsBlog</type>
             <type by_reference="false">null</type>
@@ -2118,7 +2212,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get_objects</full_name>
         <docblock line="130">
           <description>Get an array with all blog-objects</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="130" name="return" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2129,7 +2223,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>is_plugin_active</full_name>
         <docblock line="138">
           <description>Is plugin active in the blog with that blog_id</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="138" name="param" description="" type="int" variable="$blog_id">
             <type by_reference="false">int</type>
           </tag>
@@ -2139,7 +2233,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         </docblock>
         <argument line="143">
           <name>$blog_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2148,7 +2242,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get</full_name>
         <docblock line="152">
           <description>Get an arry of blog-objects but not the current blog</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="152" name="return" description="" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2159,7 +2253,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get_filtered</full_name>
         <docblock line="163">
           <description>Get an array with filtered blog-objects</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="163" name="param" description="" type="bool" variable="$filter">
             <type by_reference="false">bool</type>
           </tag>
@@ -2178,7 +2272,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>instance</full_name>
         <docblock line="174">
           <description>Get or create a instance of MslsBlogCollection</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="174" name="return" description="" type="\MslsBlogCollection">
             <type by_reference="false">\MslsBlogCollection</type>
           </tag>
@@ -2306,7 +2400,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </method>
     </class>
   </file>
-  <file path="includes/MslsPostTag.php" hash="b79267be034ede9c25e9aec798ad0aae" package="Default">
+  <file path="includes/MslsPostTag.php" hash="3191201fa13519c1381d33de1aee99f4" package="Default">
     <docblock line="2">
       <description>MslsPostTag</description>
       <long-description/>
@@ -2334,47 +2428,44 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="42" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="41" package="Msls\Main">
         <name>add</name>
         <full_name>add</full_name>
-        <docblock line="37">
+        <docblock line="36">
           <description>Add</description>
           <long-description/>
-          <tag line="37" name="param" description="" type="\StdClass" variable="$tag">
+          <tag line="36" name="param" description="" type="\StdClass" variable="$tag">
             <type by_reference="false">\StdClass</type>
           </tag>
-          <tag line="37" name="return" description="" type="\MslsPostTag">
+          <tag line="36" name="return" description="" type="\MslsPostTag">
             <type by_reference="false">\MslsPostTag</type>
           </tag>
         </docblock>
-        <argument line="42">
+        <argument line="41">
           <name>$tag</name>
           <default/>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="90" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="87" package="Msls\Main">
         <name>set</name>
         <full_name>set</full_name>
-        <docblock line="84">
+        <docblock line="82">
           <description>Set</description>
           <long-description/>
-          <tag line="84" name="param" description="" type="int" variable="$term_id">
+          <tag line="82" name="param" description="" type="int" variable="$term_id">
             <type by_reference="false">int</type>
           </tag>
-          <tag line="84" name="param" description="" type="int" variable="$tt_id">
+          <tag line="82" name="param" description="" type="int" variable="$tt_id">
             <type by_reference="false">int</type>
-          </tag>
-          <tag line="84" name="return" description="" type="\MslsPostTag">
-            <type by_reference="false">\MslsPostTag</type>
           </tag>
         </docblock>
-        <argument line="90">
+        <argument line="87">
           <name>$term_id</name>
           <default/>
           <type/>
         </argument>
-        <argument line="90">
+        <argument line="87">
           <name>$tt_id</name>
           <default/>
           <type/>
@@ -2606,7 +2697,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       </method>
     </class>
   </file>
-  <file path="includes/MslsLanguageArray.php" hash="97c0620801a2154e02acbd2848261ead" package="Default">
+  <file path="includes/MslsLanguageArray.php" hash="8b5fb2c2fac739556d74f24a6b002582" package="Default">
     <docblock line="2">
       <description>MslsTaxonomy</description>
       <long-description/>
@@ -2650,14 +2741,14 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
           <type>array</type>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="38" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="40" package="Msls\Main">
         <name>set</name>
         <full_name>set</full_name>
         <docblock line="30">
-          <description>Sets a key-value-pair
+          <description>set</description>
+          <long-description>&lt;p&gt;Sets a key-value-pair
 - $key must be a string of length &gt;= 2
-- $value must be an integer &gt; 0</description>
-          <long-description/>
+- $value must be an integer &gt; 0&lt;/p&gt;</long-description>
           <tag line="30" name="param" description="" type="string" variable="$key">
             <type by_reference="false">string</type>
           </tag>
@@ -2668,52 +2759,52 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
             <type by_reference="false">\MslsLanguageArray</type>
           </tag>
         </docblock>
-        <argument line="38">
+        <argument line="40">
           <name>$key</name>
           <default/>
           <type/>
         </argument>
-        <argument line="38">
+        <argument line="40">
           <name>$value</name>
           <default/>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="50" package="Msls\Main">
-        <name>get_arr</name>
-        <full_name>get_arr</full_name>
-        <docblock line="45">
-          <description>Gets the filtered array without the specified element</description>
-          <long-description/>
-          <tag line="45" name="param" description="" type="string" variable="$key">
-            <type by_reference="false">string</type>
-          </tag>
-          <tag line="45" name="return" description="" type="array">
-            <type by_reference="false">array</type>
-          </tag>
-        </docblock>
-        <argument line="50">
-          <name>$key</name>
-          <default>''</default>
-          <type/>
-        </argument>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="62" package="Msls\Main">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="55" package="Msls\Main">
         <name>get_val</name>
         <full_name>get_val</full_name>
-        <docblock line="57">
-          <description>Gets the value of the requested item</description>
-          <long-description/>
-          <tag line="57" name="param" description="" type="string" variable="$key">
+        <docblock line="48">
+          <description>get_arr</description>
+          <long-description>&lt;p&gt;Gets the value of the requested item&lt;/p&gt;</long-description>
+          <tag line="48" name="param" description="" type="string" variable="$key">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="57" name="return" description="" type="int">
+          <tag line="48" name="return" description="" type="int">
             <type by_reference="false">int</type>
           </tag>
         </docblock>
-        <argument line="62">
+        <argument line="55">
           <name>$key</name>
           <default/>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="66" package="Msls\Main">
+        <name>get_arr</name>
+        <full_name>get_arr</full_name>
+        <docblock line="59">
+          <description>get_val</description>
+          <long-description>&lt;p&gt;Gets the filtered array without the specified element&lt;/p&gt;</long-description>
+          <tag line="59" name="param" description="" type="string" variable="$key">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="59" name="return" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="66">
+          <name>$key</name>
+          <default>''</default>
           <type/>
         </argument>
       </method>
@@ -3187,7 +3278,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
   <file path="includes/MslsOutput.php" hash="c730025dc897f51372fba813fd099077" package="Default">
     <docblock line="2">
       <description>MslsOutput</description>
-      <long-description></long-description>
+      <long-description/>
       <tag line="2" name="author" description="Dennis Ploetner &lt;re@lloc.de&gt;"/>
       <tag line="2" name="since" description="0.9.8"/>
     </docblock>
@@ -3197,7 +3288,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
       <full_name>\MslsOutput</full_name>
       <docblock line="8">
         <description>Output in the frontend</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="8" name="package" description="Msls"/>
         <tag line="8" name="subpackage" description="Output"/>
       </docblock>
@@ -3214,7 +3305,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>get</full_name>
         <docblock line="22">
           <description>Get the output as array</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="22" name="param" description="" type="string" variable="$display">
             <type by_reference="false">string</type>
           </tag>
@@ -3230,7 +3321,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         </docblock>
         <argument line="29">
           <name>$display</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="29">
@@ -3249,7 +3340,7 @@ work with a singleton instance of MslsBlogCollection all the time.&lt;/p&gt;</lo
         <full_name>__toString</full_name>
         <docblock line="75">
           <description>Returns a string when the object will be treated like a string</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="75" name="see" description="\global\get_the_msls()" refers="\global\get_the_msls()"/>
           <tag line="75" name="return" description="" type="string">
             <type by_reference="false">string</type>

@@ -61,7 +61,7 @@
 </a>
 </g>
 <!-- \\MslsOptionsQuery -->
-<g id="node37" class="node"><title>\\MslsOptionsQuery</title>
+<g id="node38" class="node"><title>\\MslsOptionsQuery</title>
 <a xlink:href="includes.MslsOptionsQuery.html" xlink:title="MslsOptionsQuery" target="_parent">
 <polygon fill="none" stroke="black" points="584,-468 460,-468 460,-432 584,-432 584,-468"/>
 <text text-anchor="middle" x="522" y="-447.1" font-family="Courier,monospace" font-size="11.00">MslsOptionsQuery</text>
@@ -80,7 +80,7 @@
 </a>
 </g>
 <!-- \\MslsMain -->
-<g id="node22" class="node"><title>\\MslsMain</title>
+<g id="node23" class="node"><title>\\MslsMain</title>
 <a xlink:href="includes.MslsMain.html" xlink:title="«abstract»&lt;br/&gt;MslsMain" target="_parent">
 <polygon fill="none" stroke="black" points="564,-252 480,-252 480,-216 564,-216 564,-252"/>
 <text text-anchor="start" x="488" y="-239.433" font-family="Courier,monospace" font-size="11.00">«abstract»</text>
@@ -124,7 +124,7 @@
 <polygon fill="none" stroke="black" points="360.779,-554.5 350.779,-558 360.779,-561.5 360.779,-554.5"/>
 </g>
 <!-- \\MslsOptionsTax -->
-<g id="node25" class="node"><title>\\MslsOptionsTax</title>
+<g id="node26" class="node"><title>\\MslsOptionsTax</title>
 <a xlink:href="includes.MslsOptionsTax.html" xlink:title="MslsOptionsTax" target="_parent">
 <polygon fill="none" stroke="black" points="577,-522 467,-522 467,-486 577,-486 577,-522"/>
 <text text-anchor="middle" x="522" y="-501.1" font-family="Courier,monospace" font-size="11.00">MslsOptionsTax</text>
@@ -181,14 +181,14 @@
 <!-- \\MslsCustomColumnTaxonomy -->
 <g id="node14" class="node"><title>\\MslsCustomColumnTaxonomy</title>
 <a xlink:href="includes.MslsCustomColumnTaxonomy.html" xlink:title="MslsCustomColumnTaxonomy" target="_parent">
-<polygon fill="none" stroke="black" points="1097,-414 919,-414 919,-378 1097,-378 1097,-414"/>
-<text text-anchor="middle" x="1008" y="-393.1" font-family="Courier,monospace" font-size="11.00">MslsCustomColumnTaxonomy</text>
+<polygon fill="none" stroke="black" points="1097,-468 919,-468 919,-432 1097,-432 1097,-468"/>
+<text text-anchor="middle" x="1008" y="-447.1" font-family="Courier,monospace" font-size="11.00">MslsCustomColumnTaxonomy</text>
 </a>
 </g>
 <!-- \\MslsCustomColumnTaxonomy&#45;&gt;\\MslsCustomColumn -->
 <g id="edge21" class="edge"><title>\\MslsCustomColumnTaxonomy&#45;&gt;\\MslsCustomColumn</title>
-<path fill="none" stroke="black" d="M921.731,-377.944C889.478,-371.193 853.208,-363.602 822.339,-357.141"/>
-<polygon fill="none" stroke="black" points="823.024,-353.708 812.519,-355.085 821.59,-360.56 823.024,-353.708"/>
+<path fill="none" stroke="black" d="M933.331,-431.969C925.982,-429.317 918.752,-426.336 912,-423 876.137,-405.284 875.708,-387.025 840,-369 834.361,-366.154 828.37,-363.551 822.261,-361.183"/>
+<polygon fill="none" stroke="black" points="823.192,-357.797 812.598,-357.653 820.79,-364.372 823.192,-357.797"/>
 </g>
 <!-- \\MslsGetSet -->
 <g id="node15" class="node"><title>\\MslsGetSet</title>
@@ -214,8 +214,15 @@
 <path fill="none" stroke="black" d="M279.164,-551.321C243.357,-544.648 187.927,-534.318 147.229,-526.734"/>
 <polygon fill="none" stroke="black" points="147.692,-523.26 137.22,-524.868 146.409,-530.141 147.692,-523.26"/>
 </g>
+<!-- \\MslsJson -->
+<g id="node18" class="node"><title>\\MslsJson</title>
+<a xlink:href="includes.MslsJson.html" xlink:title="MslsJson" target="_parent">
+<polygon fill="none" stroke="black" points="1043,-414 973,-414 973,-378 1043,-378 1043,-414"/>
+<text text-anchor="middle" x="1008" y="-393.1" font-family="Courier,monospace" font-size="11.00">MslsJson</text>
+</a>
+</g>
 <!-- \\MslsOptionsQueryDay -->
-<g id="node18" class="node"><title>\\MslsOptionsQueryDay</title>
+<g id="node19" class="node"><title>\\MslsOptionsQueryDay</title>
 <a xlink:href="includes.MslsOptionsQueryDay.html" xlink:title="MslsOptionsQueryDay" target="_parent">
 <polygon fill="none" stroke="black" points="822,-522 678,-522 678,-486 822,-486 822,-522"/>
 <text text-anchor="middle" x="750" y="-501.1" font-family="Courier,monospace" font-size="11.00">MslsOptionsQueryDay</text>
@@ -227,14 +234,14 @@
 <polygon fill="none" stroke="black" points="595.41,-463.79 584.873,-464.891 593.797,-470.601 595.41,-463.79"/>
 </g>
 <!-- \\MslsOptionsPost -->
-<g id="node19" class="node"><title>\\MslsOptionsPost</title>
+<g id="node20" class="node"><title>\\MslsOptionsPost</title>
 <a xlink:href="includes.MslsOptionsPost.html" xlink:title="MslsOptionsPost" target="_parent">
 <polygon fill="none" stroke="black" points="581,-414 463,-414 463,-378 581,-378 581,-414"/>
 <text text-anchor="middle" x="522" y="-393.1" font-family="Courier,monospace" font-size="11.00">MslsOptionsPost</text>
 </a>
 </g>
 <!-- \\MslsOptions -->
-<g id="node21" class="node"><title>\\MslsOptions</title>
+<g id="node22" class="node"><title>\\MslsOptions</title>
 <a xlink:href="includes.MslsOptions.html" xlink:title="MslsOptions" target="_parent">
 <polygon fill="none" stroke="black" points="360,-495 270,-495 270,-459 360,-459 360,-495"/>
 <text text-anchor="middle" x="315" y="-474.1" font-family="Courier,monospace" font-size="11.00">MslsOptions</text>
@@ -246,7 +253,7 @@
 <polygon fill="none" stroke="black" points="368.736,-452.214 360.699,-459.118 371.287,-458.733 368.736,-452.214"/>
 </g>
 <!-- \\MslsMetaBox -->
-<g id="node20" class="node"><title>\\MslsMetaBox</title>
+<g id="node21" class="node"><title>\\MslsMetaBox</title>
 <a xlink:href="includes.MslsMetaBox.html" xlink:title="MslsMetaBox" target="_parent">
 <polygon fill="none" stroke="black" points="795,-306 705,-306 705,-270 795,-270 795,-306"/>
 <text text-anchor="middle" x="750" y="-285.1" font-family="Courier,monospace" font-size="11.00">MslsMetaBox</text>
@@ -268,7 +275,7 @@
 <polygon fill="none" stroke="black" points="146.385,-504.1 137.172,-509.332 147.637,-510.987 146.385,-504.1"/>
 </g>
 <!-- \\MslsOptionsQueryYear -->
-<g id="node23" class="node"><title>\\MslsOptionsQueryYear</title>
+<g id="node24" class="node"><title>\\MslsOptionsQueryYear</title>
 <a xlink:href="includes.MslsOptionsQueryYear.html" xlink:title="MslsOptionsQueryYear" target="_parent">
 <polygon fill="none" stroke="black" points="826,-468 674,-468 674,-432 826,-432 826,-468"/>
 <text text-anchor="middle" x="750" y="-447.1" font-family="Courier,monospace" font-size="11.00">MslsOptionsQueryYear</text>
@@ -280,7 +287,7 @@
 <polygon fill="none" stroke="black" points="594.509,-446.5 584.509,-450 594.509,-453.5 594.509,-446.5"/>
 </g>
 <!-- \\MslsBlogCollection -->
-<g id="node24" class="node"><title>\\MslsBlogCollection</title>
+<g id="node25" class="node"><title>\\MslsBlogCollection</title>
 <a xlink:href="includes.MslsBlogCollection.html" xlink:title="MslsBlogCollection" target="_parent">
 <polygon fill="none" stroke="black" points="384,-441 246,-441 246,-405 384,-405 384,-441"/>
 <text text-anchor="middle" x="315" y="-420.1" font-family="Courier,monospace" font-size="11.00">MslsBlogCollection</text>
@@ -297,7 +304,7 @@
 <polygon fill="none" stroke="black" points="371.086,-480.786 360.717,-482.963 370.181,-487.727 371.086,-480.786"/>
 </g>
 <!-- \\MslsPostTag -->
-<g id="node26" class="node"><title>\\MslsPostTag</title>
+<g id="node27" class="node"><title>\\MslsPostTag</title>
 <a xlink:href="includes.MslsPostTag.html" xlink:title="MslsPostTag" target="_parent">
 <polygon fill="none" stroke="black" points="795,-252 705,-252 705,-216 795,-216 795,-252"/>
 <text text-anchor="middle" x="750" y="-231.1" font-family="Courier,monospace" font-size="11.00">MslsPostTag</text>
@@ -309,28 +316,28 @@
 <polygon fill="none" stroke="black" points="574.813,-230.5 564.813,-234 574.813,-237.5 574.813,-230.5"/>
 </g>
 <!-- \\MslsAdminIcon -->
-<g id="node27" class="node"><title>\\MslsAdminIcon</title>
+<g id="node28" class="node"><title>\\MslsAdminIcon</title>
 <a xlink:href="includes.MslsAdminIcon.html" xlink:title="MslsAdminIcon" target="_parent">
 <polygon fill="none" stroke="black" points="802,-144 698,-144 698,-108 802,-108 802,-144"/>
 <text text-anchor="middle" x="750" y="-123.1" font-family="Courier,monospace" font-size="11.00">MslsAdminIcon</text>
 </a>
 </g>
 <!-- \\MslsLanguageArray -->
-<g id="node28" class="node"><title>\\MslsLanguageArray</title>
+<g id="node29" class="node"><title>\\MslsLanguageArray</title>
 <a xlink:href="includes.MslsLanguageArray.html" xlink:title="MslsLanguageArray" target="_parent">
 <polygon fill="none" stroke="black" points="1073,-360 943,-360 943,-324 1073,-324 1073,-360"/>
 <text text-anchor="middle" x="1008" y="-339.1" font-family="Courier,monospace" font-size="11.00">MslsLanguageArray</text>
 </a>
 </g>
 <!-- \\MslsBlog -->
-<g id="node29" class="node"><title>\\MslsBlog</title>
+<g id="node30" class="node"><title>\\MslsBlog</title>
 <a xlink:href="includes.MslsBlog.html" xlink:title="MslsBlog" target="_parent">
 <polygon fill="none" stroke="black" points="1043,-306 973,-306 973,-270 1043,-270 1043,-306"/>
 <text text-anchor="middle" x="1008" y="-285.1" font-family="Courier,monospace" font-size="11.00">MslsBlog</text>
 </a>
 </g>
 <!-- \\MslsAdminIconTaxonomy -->
-<g id="node30" class="node"><title>\\MslsAdminIconTaxonomy</title>
+<g id="node31" class="node"><title>\\MslsAdminIconTaxonomy</title>
 <a xlink:href="includes.MslsAdminIconTaxonomy.html" xlink:title="MslsAdminIconTaxonomy" target="_parent">
 <polygon fill="none" stroke="black" points="1087,-252 929,-252 929,-216 1087,-216 1087,-252"/>
 <text text-anchor="middle" x="1008" y="-231.1" font-family="Courier,monospace" font-size="11.00">MslsAdminIconTaxonomy</text>
@@ -342,21 +349,21 @@
 <polygon fill="none" stroke="black" points="812.727,-138 802.135,-138.254 810.573,-144.661 812.727,-138"/>
 </g>
 <!-- \\MslsRegistry -->
-<g id="node31" class="node"><title>\\MslsRegistry</title>
+<g id="node32" class="node"><title>\\MslsRegistry</title>
 <a xlink:href="includes.MslsRegistry.html" xlink:title="MslsRegistry" target="_parent">
 <polygon fill="none" stroke="black" points="1057,-198 959,-198 959,-162 1057,-162 1057,-198"/>
 <text text-anchor="middle" x="1008" y="-177.1" font-family="Courier,monospace" font-size="11.00">MslsRegistry</text>
 </a>
 </g>
 <!-- \\MslsPlugin -->
-<g id="node32" class="node"><title>\\MslsPlugin</title>
+<g id="node33" class="node"><title>\\MslsPlugin</title>
 <a xlink:href="includes.MslsPlugin.html" xlink:title="MslsPlugin" target="_parent">
 <polygon fill="none" stroke="black" points="1050,-144 966,-144 966,-108 1050,-108 1050,-144"/>
 <text text-anchor="middle" x="1008" y="-123.1" font-family="Courier,monospace" font-size="11.00">MslsPlugin</text>
 </a>
 </g>
 <!-- \\MslsOutput -->
-<g id="node33" class="node"><title>\\MslsOutput</title>
+<g id="node34" class="node"><title>\\MslsOutput</title>
 <a xlink:href="includes.MslsOutput.html" xlink:title="MslsOutput" target="_parent">
 <polygon fill="none" stroke="black" points="792,-198 708,-198 708,-162 792,-162 792,-198"/>
 <text text-anchor="middle" x="750" y="-177.1" font-family="Courier,monospace" font-size="11.00">MslsOutput</text>
@@ -368,7 +375,7 @@
 <polygon fill="none" stroke="black" points="573.536,-218.197 564.612,-223.908 575.149,-225.009 573.536,-218.197"/>
 </g>
 <!-- \\MslsTaxonomy -->
-<g id="node34" class="node"><title>\\MslsTaxonomy</title>
+<g id="node35" class="node"><title>\\MslsTaxonomy</title>
 <a xlink:href="includes.MslsTaxonomy.html" xlink:title="MslsTaxonomy" target="_parent">
 <polygon fill="none" stroke="black" points="364,-387 266,-387 266,-351 364,-351 364,-387"/>
 <text text-anchor="middle" x="315" y="-366.1" font-family="Courier,monospace" font-size="11.00">MslsTaxonomy</text>
@@ -385,7 +392,7 @@
 <polygon fill="none" stroke="black" points="168.117,-347.447 157.765,-349.703 167.264,-354.395 168.117,-347.447"/>
 </g>
 <!-- \\MslsPostType -->
-<g id="node35" class="node"><title>\\MslsPostType</title>
+<g id="node36" class="node"><title>\\MslsPostType</title>
 <a xlink:href="includes.MslsPostType.html" xlink:title="MslsPostType" target="_parent">
 <polygon fill="none" stroke="black" points="364,-333 266,-333 266,-297 364,-297 364,-333"/>
 <text text-anchor="middle" x="315" y="-312.1" font-family="Courier,monospace" font-size="11.00">MslsPostType</text>
@@ -402,14 +409,14 @@
 <polygon fill="none" stroke="black" points="167.264,-329.605 157.765,-334.297 168.117,-336.553 167.264,-329.605"/>
 </g>
 <!-- \\MslsWidget -->
-<g id="node36" class="node"><title>\\MslsWidget</title>
+<g id="node37" class="node"><title>\\MslsWidget</title>
 <a xlink:href="includes.MslsWidget.html" xlink:title="MslsWidget" target="_parent">
 <polygon fill="none" stroke="black" points="1050,-90 966,-90 966,-54 1050,-54 1050,-90"/>
 <text text-anchor="middle" x="1008" y="-69.1" font-family="Courier,monospace" font-size="11.00">MslsWidget</text>
 </a>
 </g>
 <!-- \\WP_Widget -->
-<g id="node62" class="node"><title>\\WP_Widget</title>
+<g id="node63" class="node"><title>\\WP_Widget</title>
 <ellipse fill="none" stroke="black" cx="750" cy="-18" rx="72.1249" ry="18.3848"/>
 <text text-anchor="middle" x="750" y="-14.4" font-family="Times Roman,serif" font-size="14.00" fill="gray">\WP_Widget</text>
 </g>
