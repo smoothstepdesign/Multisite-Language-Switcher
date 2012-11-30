@@ -60,13 +60,13 @@
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public inherited"><a href="#method___construct" title="__construct :: Constructor"><span class="description">Constructor</span><pre>__construct()</pre></a></li>
-<li class="method public inherited"><a href="#method___get" title="__get :: get (overloaded)"><span class="description">get (overloaded)</span><pre>__get()</pre></a></li>
-<li class="method public inherited"><a href="#method___isset" title="__isset :: isset (overloaded)"><span class="description">isset (overloaded)</span><pre>__isset()</pre></a></li>
-<li class="method public inherited"><a href="#method___set" title="__set :: set (overloaded)"><span class="description">set (overloaded)</span><pre>__set()</pre></a></li>
-<li class="method public inherited"><a href="#method___unset" title="__unset :: unset (overloaded)"><span class="description">unset (overloaded)</span><pre>__unset()</pre></a></li>
+<li class="method public inherited"><a href="#method___get" title="__get :: Overloaded get-method"><span class="description">Overloaded get-method</span><pre>__get()</pre></a></li>
+<li class="method public inherited"><a href="#method___isset" title="__isset :: Overloaded isset-method"><span class="description">Overloaded isset-method</span><pre>__isset()</pre></a></li>
+<li class="method public inherited"><a href="#method___set" title="__set :: Overloaded set-method"><span class="description">Overloaded set-method</span><pre>__set()</pre></a></li>
+<li class="method public inherited"><a href="#method___unset" title="__unset :: Overloaded unset-method"><span class="description">Overloaded unset-method</span><pre>__unset()</pre></a></li>
 <li class="method public inherited"><a href="#method_create" title="create :: Factory method"><span class="description">Factory method</span><pre>create()</pre></a></li>
 <li class="method public inherited"><a href="#method_delete" title="delete :: Delete"><span class="description">Delete</span><pre>delete()</pre></a></li>
-<li class="method public inherited"><a href="#method_get_arr" title="get_arr :: get_arr"><span class="description">get_arr</span><pre>get_arr()</pre></a></li>
+<li class="method public inherited"><a href="#method_get_arr" title="get_arr :: Get the complete properties-container as an array"><span class="description">Get the complete properties-container as an array</span><pre>get_arr()</pre></a></li>
 <li class="method public "><a href="#method_get_current_link" title="get_current_link :: Get current link"><span class="description">Get current link</span><pre>get_current_link()</pre></a></li>
 <li class="method public inherited"><a href="#method_get_flag_url" title="get_flag_url :: Get flag url"><span class="description">Get flag url</span><pre>get_flag_url()</pre></a></li>
 <li class="method public inherited"><a href="#method_get_order" title="get_order :: Get order"><span class="description">Get order</span><pre>get_order()</pre></a></li>
@@ -76,9 +76,9 @@
 <li class="method public "><a href="#method_has_value" title="has_value :: Check if the array has an non empty item which has $language as a key"><span class="description">Check if the array has an non empty item which has $language as a key</span><pre>has_value()</pre></a></li>
 <li class="method public inherited"><a href="#method_instance" title="instance :: Instance"><span class="description">Instance</span><pre>instance()</pre></a></li>
 <li class="method public inherited"><a href="#method_is_content_filter" title="is_content_filter :: Is content"><span class="description">Is content</span><pre>is_content_filter()</pre></a></li>
-<li class="method public inherited"><a href="#method_is_empty" title="is_empty :: is_empty"><span class="description">is_empty</span><pre>is_empty()</pre></a></li>
+<li class="method public inherited"><a href="#method_is_empty" title="is_empty :: Check if the properties-container is empty"><span class="description">Check if the properties-container is empty</span><pre>is_empty()</pre></a></li>
 <li class="method public inherited"><a href="#method_is_excluded" title="is_excluded :: Is excluded"><span class="description">Is excluded</span><pre>is_excluded()</pre></a></li>
-<li class="method public inherited"><a href="#method_reset" title="reset :: reset"><span class="description">reset</span><pre>reset()</pre></a></li>
+<li class="method public inherited"><a href="#method_reset" title="reset :: Reset the properties-container to an empty array"><span class="description">Reset the properties-container to an empty array</span><pre>reset()</pre></a></li>
 <li class="method public inherited"><a href="#method_save" title="save :: Save"><span class="description">Save</span><pre>save()</pre></a></li>
 <li class="method public inherited"><a href="#method_set" title="set :: Set"><span class="description">Set</span><pre>set()</pre></a></li>
 </ul>
@@ -117,8 +117,16 @@
 <p class="short_description">OptionsQueryMonth</p>
 <div class="details">
 <div class="long_description"><pre><code>$obj = new MslsGetSet;
-$obj->test = 'This is just a test';
-echo $obj->test;
+$obj->tmp = 'test';
+$val = $obj->get_arr();          // array( 'tmp' => 'test' ) == $val
+$val = $obj->has_value( 'tmp' ); // true == $val
+$val = $obj->is_empty();         // false == $val
+echo $obj->tmp;                  // echos 'test'
+$obj->reset();
+$val = $obj->get_arr();          // array() == $val
+$val = $obj->has_value( 'tmp' ); // false == $val
+$val = $obj->is_empty();         // true == $val
+echo $obj->tmp;                  // echos null
 </code></pre></div>
 <table class="table table-bordered">
 <tr>
@@ -151,7 +159,7 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___get"></a><div class="element clickable method public method___get" data-toggle="collapse" data-target=".method___get .collapse">
-<h2>get (overloaded)</h2>
+<h2>Overloaded get-method</h2>
 <pre>__get(mixed $key) : mixed</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
@@ -180,7 +188,7 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___isset"></a><div class="element clickable method public method___isset" data-toggle="collapse" data-target=".method___isset .collapse">
-<h2>isset (overloaded)</h2>
+<h2>Overloaded isset-method</h2>
 <pre>__isset(mixed $key) : bool</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
@@ -209,7 +217,7 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___set"></a><div class="element clickable method public method___set" data-toggle="collapse" data-target=".method___set .collapse">
-<h2>set (overloaded)</h2>
+<h2>Overloaded set-method</h2>
 <pre>__set(mixed $key, mixed $value) </pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
@@ -240,7 +248,7 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method___unset"></a><div class="element clickable method public method___unset" data-toggle="collapse" data-target=".method___unset .collapse">
-<h2>unset (overloaded)</h2>
+<h2>Overloaded unset-method</h2>
 <pre>__unset(mixed $key) </pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
@@ -301,16 +309,11 @@ echo $obj->test;
 </div></div>
 </div>
 <a id="method_get_arr"></a><div class="element clickable method public method_get_arr" data-toggle="collapse" data-target=".method_get_arr .collapse">
-<h2>get_arr</h2>
+<h2>Get the complete properties-container as an array</h2>
 <pre>get_arr() : array</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Get the complete properties-container as an array</p>
-
-<pre><code>$obj = new MslsGetSet;
-$obj->temp = 'test';
-$val = $obj->get_arr(); // array( 'temp' => 'test' ) == $val
-</code></pre></div>
+<div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
 <th>inherited_from</th>
@@ -458,17 +461,10 @@ $val = $obj->get_arr(); // array( 'temp' => 'test' ) == $val
 <pre>has_value(string $language) : bool</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Check if the array has an non empty item with the specified key.
-This is method is similar to the overloaded __isset-method since
+<div class="long_description"><p>This is method is similar to the overloaded __isset-method since
 __set cleans empty properties but I use for example
 $obj->has_value( $temp ) and not isset( $obj->$temp ) which is
-the same but a little bit ugly.</p>
-
-<pre><code>$obj = new MslsGetSet;
-$val = $obj->has_value( 'temp' ); // false == $val
-$obj->temp = 'test';
-$val = $obj->has_value( 'temp' ); // true == $val
-</code></pre></div>
+the same but a little bit ugly.</p></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
 <h4>$language</h4>
@@ -521,17 +517,11 @@ $val = $obj->has_value( 'temp' ); // true == $val
 </div></div>
 </div>
 <a id="method_is_empty"></a><div class="element clickable method public method_is_empty" data-toggle="collapse" data-target=".method_is_empty .collapse">
-<h2>is_empty</h2>
+<h2>Check if the properties-container is empty</h2>
 <pre>is_empty() : bool</pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Check if the properties-container is empty</p>
-
-<pre><code>$obj = new MslsGetSet;
-$val = $obj->is_empty(); // true == $val
-$obj->temp = 'test';
-$val = $obj->is_empty(); // false == $val
-</code></pre></div>
+<div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
 <th>inherited_from</th>
@@ -571,17 +561,11 @@ $val = $obj->is_empty(); // false == $val
 </div></div>
 </div>
 <a id="method_reset"></a><div class="element clickable method public method_reset" data-toggle="collapse" data-target=".method_reset .collapse">
-<h2>reset</h2>
+<h2>Reset the properties-container to an empty array</h2>
 <pre>reset() : <a href="../classes/MslsGetSet.html">\MslsGetSet</a></pre>
 <div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Reset the whole properties-container</p>
-
-<pre><code>$obj = new MslsGetSet;
-$obj->temp = 'test';
-$obj->reset();
-$val = $obj->get_arr(); // array() == $val
-</code></pre></div>
+<div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
 <th>inherited_from</th>
@@ -807,7 +791,7 @@ $val = $obj->get_arr(); // array() == $val
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a11</a> and<br>
-            generated on 2012-11-28T16:05:05+01:00.<br></footer></div>
+            generated on 2012-11-30T10:47:20+01:00.<br></footer></div>
 </div>
 </body>
 </html>
