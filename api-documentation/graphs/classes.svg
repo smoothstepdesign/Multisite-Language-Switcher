@@ -66,7 +66,7 @@
 <polygon fill="none" stroke="black" points="115.423,-491.819 108.197,-499.567 118.677,-498.016 115.423,-491.819"/>
 </g>
 <!-- \\IMslsRegistryInstance -->
-<g id="node40" class="node"><title>\\IMslsRegistryInstance</title>
+<g id="node41" class="node"><title>\\IMslsRegistryInstance</title>
 <polygon fill="none" stroke="black" points="132,-360 16,-360 16,-324 132,-324 132,-360"/>
 <text text-anchor="middle" x="74" y="-339.2" font-family="Times New Roman,serif" font-size="11.00">IMslsRegistryInstance</text>
 </g>
@@ -111,7 +111,7 @@
 <text text-anchor="middle" x="847" y="-69.2" font-family="Times New Roman,serif" font-size="11.00">MslsWidget</text>
 </g>
 <!-- \\WP_Widget -->
-<g id="node48" class="node"><title>\\WP_Widget</title>
+<g id="node49" class="node"><title>\\WP_Widget</title>
 <ellipse fill="none" stroke="black" cx="627" cy="-18" rx="58.4896" ry="18"/>
 <text text-anchor="middle" x="627" y="-14.3" font-family="Times New Roman,serif" font-size="14.00" fill="gray">\WP_Widget</text>
 </g>
@@ -177,8 +177,8 @@
 </g>
 <!-- \\MslsRegistry -->
 <g id="node16" class="node"><title>\\MslsRegistry</title>
-<polygon fill="none" stroke="black" points="884,-468 810,-468 810,-432 884,-432 884,-468"/>
-<text text-anchor="middle" x="847" y="-447.2" font-family="Times New Roman,serif" font-size="11.00">MslsRegistry</text>
+<polygon fill="none" stroke="black" points="884,-522 810,-522 810,-486 884,-486 884,-522"/>
+<text text-anchor="middle" x="847" y="-501.2" font-family="Times New Roman,serif" font-size="11.00">MslsRegistry</text>
 </g>
 <!-- \\MslsPostTag&#45;&gt;\\MslsMain -->
 <g id="edge27" class="edge"><title>\\MslsPostTag&#45;&gt;\\MslsMain</title>
@@ -187,8 +187,8 @@
 </g>
 <!-- \\MslsCustomColumnTaxonomy -->
 <g id="node18" class="node"><title>\\MslsCustomColumnTaxonomy</title>
-<polygon fill="none" stroke="black" points="923,-522 771,-522 771,-486 923,-486 923,-522"/>
-<text text-anchor="middle" x="847" y="-501.2" font-family="Times New Roman,serif" font-size="11.00">MslsCustomColumnTaxonomy</text>
+<polygon fill="none" stroke="black" points="923,-576 771,-576 771,-540 923,-540 923,-576"/>
+<text text-anchor="middle" x="847" y="-555.2" font-family="Times New Roman,serif" font-size="11.00">MslsCustomColumnTaxonomy</text>
 </g>
 <!-- \\MslsCustomColumn -->
 <g id="node29" class="node"><title>\\MslsCustomColumn</title>
@@ -197,8 +197,8 @@
 </g>
 <!-- \\MslsCustomColumnTaxonomy&#45;&gt;\\MslsCustomColumn -->
 <g id="edge29" class="edge"><title>\\MslsCustomColumnTaxonomy&#45;&gt;\\MslsCustomColumn</title>
-<path fill="none" stroke="black" d="M770.977,-504C744.564,-504 715.194,-504 689.977,-504"/>
-<polygon fill="none" stroke="black" points="689.81,-500.5 679.81,-504 689.81,-507.5 689.81,-500.5"/>
+<path fill="none" stroke="black" d="M773.106,-539.944C745.996,-533.228 715.527,-525.681 689.534,-519.242"/>
+<polygon fill="none" stroke="black" points="690.355,-515.84 679.807,-516.833 688.672,-522.635 690.355,-515.84"/>
 </g>
 <!-- \\MslsOptionsQueryYear -->
 <g id="node19" class="node"><title>\\MslsOptionsQueryYear</title>
@@ -307,13 +307,13 @@
 </g>
 <!-- \\MslsOptionsTaxTermCategory -->
 <g id="node30" class="node"><title>\\MslsOptionsTaxTermCategory</title>
-<polygon fill="none" stroke="black" points="923.5,-414 770.5,-414 770.5,-378 923.5,-378 923.5,-414"/>
-<text text-anchor="middle" x="847" y="-393.2" font-family="Times New Roman,serif" font-size="11.00">MslsOptionsTaxTermCategory</text>
+<polygon fill="none" stroke="black" points="923.5,-468 770.5,-468 770.5,-432 923.5,-432 923.5,-468"/>
+<text text-anchor="middle" x="847" y="-447.2" font-family="Times New Roman,serif" font-size="11.00">MslsOptionsTaxTermCategory</text>
 </g>
 <!-- \\MslsOptionsTaxTermCategory&#45;&gt;\\MslsOptionsTaxTerm -->
 <g id="edge53" class="edge"><title>\\MslsOptionsTaxTermCategory&#45;&gt;\\MslsOptionsTaxTerm</title>
-<path fill="none" stroke="black" d="M781.186,-377.971C777.122,-375.372 773.333,-372.399 770,-369 699.151,-296.748 767.876,-226.194 698,-153 696.19,-151.104 694.232,-149.339 692.16,-147.697"/>
-<polygon fill="none" stroke="black" points="693.921,-144.662 683.68,-141.949 689.994,-150.457 693.921,-144.662"/>
+<path fill="none" stroke="black" d="M780.595,-431.962C776.721,-429.366 773.133,-426.397 770,-423 685.798,-331.709 780.972,-245.41 698,-153 696.211,-151.007 694.257,-149.16 692.177,-147.449"/>
+<polygon fill="none" stroke="black" points="693.819,-144.327 683.61,-141.495 689.825,-150.076 693.819,-144.327"/>
 </g>
 <!-- \\MslsLink&#45;&gt;\\MslsGetSet -->
 <g id="edge55" class="edge"><title>\\MslsLink&#45;&gt;\\MslsGetSet</title>
@@ -322,26 +322,31 @@
 </g>
 <!-- \\MslsLanguageArray -->
 <g id="node32" class="node"><title>\\MslsLanguageArray</title>
-<polygon fill="none" stroke="black" points="900.5,-306 793.5,-306 793.5,-270 900.5,-270 900.5,-306"/>
-<text text-anchor="middle" x="847" y="-285.2" font-family="Times New Roman,serif" font-size="11.00">MslsLanguageArray</text>
+<polygon fill="none" stroke="black" points="900.5,-360 793.5,-360 793.5,-324 900.5,-324 900.5,-360"/>
+<text text-anchor="middle" x="847" y="-339.2" font-family="Times New Roman,serif" font-size="11.00">MslsLanguageArray</text>
+</g>
+<!-- \\MslsSqlCacher -->
+<g id="node34" class="node"><title>\\MslsSqlCacher</title>
+<polygon fill="none" stroke="black" points="888.5,-306 805.5,-306 805.5,-270 888.5,-270 888.5,-306"/>
+<text text-anchor="middle" x="847" y="-285.2" font-family="Times New Roman,serif" font-size="11.00">MslsSqlCacher</text>
 </g>
 <!-- \\MslsBlog -->
-<g id="node34" class="node"><title>\\MslsBlog</title>
+<g id="node35" class="node"><title>\\MslsBlog</title>
 <polygon fill="none" stroke="black" points="876,-252 818,-252 818,-216 876,-216 876,-252"/>
 <text text-anchor="middle" x="847" y="-231.2" font-family="Times New Roman,serif" font-size="11.00">MslsBlog</text>
 </g>
 <!-- \\MslsJson -->
-<g id="node35" class="node"><title>\\MslsJson</title>
+<g id="node36" class="node"><title>\\MslsJson</title>
 <polygon fill="none" stroke="black" points="875.5,-198 818.5,-198 818.5,-162 875.5,-162 875.5,-198"/>
 <text text-anchor="middle" x="847" y="-177.2" font-family="Times New Roman,serif" font-size="11.00">MslsJson</text>
 </g>
 <!-- \\MslsPlugin -->
-<g id="node36" class="node"><title>\\MslsPlugin</title>
+<g id="node37" class="node"><title>\\MslsPlugin</title>
 <polygon fill="none" stroke="black" points="879.5,-144 814.5,-144 814.5,-108 879.5,-108 879.5,-144"/>
 <text text-anchor="middle" x="847" y="-123.2" font-family="Times New Roman,serif" font-size="11.00">MslsPlugin</text>
 </g>
 <!-- \\MslsOptionsQueryMonth -->
-<g id="node37" class="node"><title>\\MslsOptionsQueryMonth</title>
+<g id="node38" class="node"><title>\\MslsOptionsQueryMonth</title>
 <polygon fill="none" stroke="black" points="691,-252 563,-252 563,-216 691,-216 691,-252"/>
 <text text-anchor="middle" x="627" y="-231.2" font-family="Times New Roman,serif" font-size="11.00">MslsOptionsQueryMonth</text>
 </g>
@@ -351,17 +356,17 @@
 <polygon fill="none" stroke="black" points="480.037,-289.689 472.304,-296.931 482.865,-296.092 480.037,-289.689"/>
 </g>
 <!-- \\MslsAdminIconTaxonomy -->
-<g id="node38" class="node"><title>\\MslsAdminIconTaxonomy</title>
-<polygon fill="none" stroke="black" points="913.5,-360 780.5,-360 780.5,-324 913.5,-324 913.5,-360"/>
-<text text-anchor="middle" x="847" y="-339.2" font-family="Times New Roman,serif" font-size="11.00">MslsAdminIconTaxonomy</text>
+<g id="node39" class="node"><title>\\MslsAdminIconTaxonomy</title>
+<polygon fill="none" stroke="black" points="913.5,-414 780.5,-414 780.5,-378 913.5,-378 913.5,-414"/>
+<text text-anchor="middle" x="847" y="-393.2" font-family="Times New Roman,serif" font-size="11.00">MslsAdminIconTaxonomy</text>
 </g>
 <!-- \\MslsAdminIconTaxonomy&#45;&gt;\\MslsAdminIcon -->
 <g id="edge59" class="edge"><title>\\MslsAdminIconTaxonomy&#45;&gt;\\MslsAdminIcon</title>
-<path fill="none" stroke="black" d="M781.186,-323.971C777.122,-321.372 773.333,-318.399 770,-315 699.151,-242.748 767.876,-172.194 698,-99 692.806,-93.5591 686.393,-89.199 679.575,-85.7089"/>
-<polygon fill="none" stroke="black" points="680.662,-82.3606 670.104,-81.4692 677.802,-88.7496 680.662,-82.3606"/>
+<path fill="none" stroke="black" d="M780.595,-377.962C776.721,-375.366 773.133,-372.397 770,-369 685.798,-277.709 780.972,-191.41 698,-99 692.915,-93.3362 686.503,-88.8513 679.637,-85.3021"/>
+<polygon fill="none" stroke="black" points="680.629,-81.9119 670.072,-81.0196 677.769,-88.3007 680.629,-81.9119"/>
 </g>
 <!-- \\MslsTaxonomy -->
-<g id="node39" class="node"><title>\\MslsTaxonomy</title>
+<g id="node40" class="node"><title>\\MslsTaxonomy</title>
 <polygon fill="none" stroke="black" points="297,-333 213,-333 213,-297 297,-297 297,-333"/>
 <text text-anchor="middle" x="255" y="-312.2" font-family="Times New Roman,serif" font-size="11.00">MslsTaxonomy</text>
 </g>
