@@ -59,14 +59,14 @@
        </div>
 </td>
       <td class="danger small"><div align="right">0.00%</div></td>
-      <td class="danger small"><div align="right">0&nbsp;/&nbsp;6</div></td>
+      <td class="danger small"><div align="right">0&nbsp;/&nbsp;5</div></td>
       <td class="danger small"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></td>
       <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
-        <div class="bar" style="width: 11.63%;"></div>
+        <div class="bar" style="width: 12.20%;"></div>
        </div>
 </td>
-      <td class="danger small"><div align="right">11.63%</div></td>
-      <td class="danger small"><div align="right">10&nbsp;/&nbsp;86</div></td>
+      <td class="danger small"><div align="right">12.20%</div></td>
+      <td class="danger small"><div align="right">10&nbsp;/&nbsp;82</div></td>
      </tr>
 
      <tr>
@@ -78,18 +78,18 @@
       <td class="danger small"><div align="right">0.00%</div></td>
       <td class="danger small"><div align="right">0&nbsp;/&nbsp;1</div></td>
       <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
-        <div class="bar" style="width: 0.00%;"></div>
+        <div class="bar" style="width: 16.67%;"></div>
        </div>
 </td>
-      <td class="danger small"><div align="right">0.00%</div></td>
-      <td class="danger small"><div align="right">0&nbsp;/&nbsp;6</div></td>
-      <td class="danger small">241.61</td>
+      <td class="danger small"><div align="right">16.67%</div></td>
+      <td class="danger small"><div align="right">1&nbsp;/&nbsp;6</div></td>
+      <td class="danger small">237.33</td>
       <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
-        <div class="bar" style="width: 11.63%;"></div>
+        <div class="bar" style="width: 12.20%;"></div>
        </div>
 </td>
-      <td class="danger small"><div align="right">11.63%</div></td>
-      <td class="danger small"><div align="right">10&nbsp;/&nbsp;86</div></td>
+      <td class="danger small"><div align="right">12.20%</div></td>
+      <td class="danger small"><div align="right">10&nbsp;/&nbsp;82</div></td>
      </tr>
 
      <tr>
@@ -161,7 +161,7 @@
      </tr>
 
      <tr>
-      <td class="danger" colspan="4">&nbsp;<a href="#140">the_input( $tag, $title_format, $item_format )</a></td>
+      <td class="danger" colspan="4">&nbsp;<a href="#142">the_input( $tag, $title_format, $item_format )</a></td>
       <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
         <div class="bar" style="width: 0.00%;"></div>
        </div>
@@ -178,20 +178,17 @@
      </tr>
 
      <tr>
-      <td class="danger" colspan="4">&nbsp;<a href="#184">set( $term_id )</a></td>
-      <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
-        <div class="bar" style="width: 0.00%;"></div>
+      <td class="success" colspan="4">&nbsp;<a href="#190">set( $term_id )</a></td>
+      <td class="success big">       <div class="progress progress-success" style="width: 100px;">
+        <div class="bar" style="width: 100.00%;"></div>
        </div>
 </td>
-      <td class="danger small"><div align="right">0.00%</div></td>
-      <td class="danger small"><div align="right">0&nbsp;/&nbsp;1</div></td>
-      <td class="danger small">6</td>
-      <td class="danger big">       <div class="progress progress-danger" style="width: 100px;">
-        <div class="bar" style="width: 0.00%;"></div>
-       </div>
-</td>
-      <td class="danger small"><div align="right">0.00%</div></td>
-      <td class="danger small"><div align="right">0&nbsp;/&nbsp;4</div></td>
+      <td class="success small"><div align="right">100.00%</div></td>
+      <td class="success small"><div align="right">1&nbsp;/&nbsp;1</div></td>
+      <td class="success small">2</td>
+      <td class="None big">&nbsp;</td>
+      <td class="None small"><div align="right"></div></td>
+      <td class="None small"><div align="right">&nbsp;</div></td>
      </tr>
 
 
@@ -334,61 +331,67 @@
      <tr><td><div align="right"><a name="133"></a><a href="#133">133</a></div></td><td class="codeLine"></td></tr>
      <tr><td><div align="right"><a name="134"></a><a href="#134">134</a></div></td><td class="codeLine">    /**</td></tr>
      <tr><td><div align="right"><a name="135"></a><a href="#135">135</a></div></td><td class="codeLine">     * Print the input fields</td></tr>
-     <tr><td><div align="right"><a name="136"></a><a href="#136">136</a></div></td><td class="codeLine">     * @param StdClass $tag</td></tr>
-     <tr><td><div align="right"><a name="137"></a><a href="#137">137</a></div></td><td class="codeLine">     * @param string $title_format</td></tr>
-     <tr><td><div align="right"><a name="138"></a><a href="#138">138</a></div></td><td class="codeLine">     * @param string $item_format</td></tr>
-     <tr><td><div align="right"><a name="139"></a><a href="#139">139</a></div></td><td class="codeLine">     */</td></tr>
-     <tr><td><div align="right"><a name="140"></a><a href="#140">140</a></div></td><td class="codeLine">    public function the_input( $tag, $title_format, $item_format ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="141"></a><a href="#141">141</a></div></td><td class="codeLine">        $term_id = ( is_object( $tag ) ? $tag-&gt;term_id : 0 );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="142"></a><a href="#142">142</a></div></td><td class="codeLine">        $blogs   = MslsBlogCollection::instance()-&gt;get();</td></tr>
-     <tr class="danger"><td><div align="right"><a name="143"></a><a href="#143">143</a></div></td><td class="codeLine">        if ( $blogs ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="144"></a><a href="#144">144</a></div></td><td class="codeLine">            $my_data = MslsOptionsTax::create( $term_id );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="145"></a><a href="#145">145</a></div></td><td class="codeLine">            $type    = MslsContentTypes::create()-&gt;get_request();</td></tr>
-     <tr class="danger"><td><div align="right"><a name="146"></a><a href="#146">146</a></div></td><td class="codeLine">            printf(</td></tr>
-     <tr class="danger"><td><div align="right"><a name="147"></a><a href="#147">147</a></div></td><td class="codeLine">                $title_format,</td></tr>
-     <tr class="danger"><td><div align="right"><a name="148"></a><a href="#148">148</a></div></td><td class="codeLine">                __( 'Multisite Language Switcher', 'msls' ),</td></tr>
-     <tr><td><div align="right"><a name="149"></a><a href="#149">149</a></div></td><td class="codeLine">                $type</td></tr>
-     <tr class="danger"><td><div align="right"><a name="150"></a><a href="#150">150</a></div></td><td class="codeLine">            );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="151"></a><a href="#151">151</a></div></td><td class="codeLine">            foreach ( $blogs as $blog ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="152"></a><a href="#152">152</a></div></td><td class="codeLine">                switch_to_blog( $blog-&gt;userblog_id );</td></tr>
-     <tr><td><div align="right"><a name="153"></a><a href="#153">153</a></div></td><td class="codeLine"></td></tr>
-     <tr class="danger"><td><div align="right"><a name="154"></a><a href="#154">154</a></div></td><td class="codeLine">                $language = $blog-&gt;get_language();</td></tr>
-     <tr class="danger"><td><div align="right"><a name="155"></a><a href="#155">155</a></div></td><td class="codeLine">                $flag_url = MslsOptions::instance()-&gt;get_flag_url( $language );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="156"></a><a href="#156">156</a></div></td><td class="codeLine">                $icon     = MslsAdminIcon::create()-&gt;set_language( $language )-&gt;set_src( $flag_url );</td></tr>
-     <tr><td><div align="right"><a name="157"></a><a href="#157">157</a></div></td><td class="codeLine"></td></tr>
-     <tr class="danger"><td><div align="right"><a name="158"></a><a href="#158">158</a></div></td><td class="codeLine">                $value = $title = '';</td></tr>
-     <tr class="danger"><td><div align="right"><a name="159"></a><a href="#159">159</a></div></td><td class="codeLine">                if ( $my_data-&gt;has_value( $language ) ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="160"></a><a href="#160">160</a></div></td><td class="codeLine">                    $term = get_term( $my_data-&gt;$language, $type );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="161"></a><a href="#161">161</a></div></td><td class="codeLine">                    if ( is_object( $term ) ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="162"></a><a href="#162">162</a></div></td><td class="codeLine">                        $icon-&gt;set_href( $my_data-&gt;$language );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="163"></a><a href="#163">163</a></div></td><td class="codeLine">                        $value = $my_data-&gt;$language;</td></tr>
-     <tr class="danger"><td><div align="right"><a name="164"></a><a href="#164">164</a></div></td><td class="codeLine">                        $title = $term-&gt;name;</td></tr>
-     <tr class="danger"><td><div align="right"><a name="165"></a><a href="#165">165</a></div></td><td class="codeLine">                    }</td></tr>
-     <tr class="danger"><td><div align="right"><a name="166"></a><a href="#166">166</a></div></td><td class="codeLine">                }</td></tr>
-     <tr class="danger"><td><div align="right"><a name="167"></a><a href="#167">167</a></div></td><td class="codeLine">                printf(</td></tr>
-     <tr class="danger"><td><div align="right"><a name="168"></a><a href="#168">168</a></div></td><td class="codeLine">                    $item_format,</td></tr>
-     <tr class="danger"><td><div align="right"><a name="169"></a><a href="#169">169</a></div></td><td class="codeLine">                    $blog-&gt;userblog_id,</td></tr>
-     <tr class="danger"><td><div align="right"><a name="170"></a><a href="#170">170</a></div></td><td class="codeLine">                    $icon,</td></tr>
-     <tr class="danger"><td><div align="right"><a name="171"></a><a href="#171">171</a></div></td><td class="codeLine">                    $language,</td></tr>
-     <tr class="danger"><td><div align="right"><a name="172"></a><a href="#172">172</a></div></td><td class="codeLine">                    $value,</td></tr>
-     <tr><td><div align="right"><a name="173"></a><a href="#173">173</a></div></td><td class="codeLine">                    $title</td></tr>
-     <tr class="danger"><td><div align="right"><a name="174"></a><a href="#174">174</a></div></td><td class="codeLine">                );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="175"></a><a href="#175">175</a></div></td><td class="codeLine">                restore_current_blog();</td></tr>
-     <tr class="danger"><td><div align="right"><a name="176"></a><a href="#176">176</a></div></td><td class="codeLine">            }</td></tr>
-     <tr class="danger"><td><div align="right"><a name="177"></a><a href="#177">177</a></div></td><td class="codeLine">        }</td></tr>
-     <tr class="danger"><td><div align="right"><a name="178"></a><a href="#178">178</a></div></td><td class="codeLine">    }</td></tr>
-     <tr><td><div align="right"><a name="179"></a><a href="#179">179</a></div></td><td class="codeLine"></td></tr>
-     <tr><td><div align="right"><a name="180"></a><a href="#180">180</a></div></td><td class="codeLine">    /**</td></tr>
-     <tr><td><div align="right"><a name="181"></a><a href="#181">181</a></div></td><td class="codeLine">     * Set calls the save method if taxonomy is set</td></tr>
-     <tr><td><div align="right"><a name="182"></a><a href="#182">182</a></div></td><td class="codeLine">     * @param int $term_id</td></tr>
-     <tr><td><div align="right"><a name="183"></a><a href="#183">183</a></div></td><td class="codeLine">     */</td></tr>
-     <tr><td><div align="right"><a name="184"></a><a href="#184">184</a></div></td><td class="codeLine">    public function set( $term_id ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="185"></a><a href="#185">185</a></div></td><td class="codeLine">        if ( MslsContentTypes::create()-&gt;acl_request() ) {</td></tr>
-     <tr class="danger"><td><div align="right"><a name="186"></a><a href="#186">186</a></div></td><td class="codeLine">            $this-&gt;save( $term_id, 'MslsOptionsTax' );</td></tr>
-     <tr class="danger"><td><div align="right"><a name="187"></a><a href="#187">187</a></div></td><td class="codeLine">        }</td></tr>
-     <tr class="danger"><td><div align="right"><a name="188"></a><a href="#188">188</a></div></td><td class="codeLine">    }</td></tr>
-     <tr><td><div align="right"><a name="189"></a><a href="#189">189</a></div></td><td class="codeLine"></td></tr>
-     <tr><td><div align="right"><a name="190"></a><a href="#190">190</a></div></td><td class="codeLine">}</td></tr>
+     <tr><td><div align="right"><a name="136"></a><a href="#136">136</a></div></td><td class="codeLine">     * Returns true if the blogcollection is not empty</td></tr>
+     <tr><td><div align="right"><a name="137"></a><a href="#137">137</a></div></td><td class="codeLine">     * @param StdClass $tag</td></tr>
+     <tr><td><div align="right"><a name="138"></a><a href="#138">138</a></div></td><td class="codeLine">     * @param string $title_format</td></tr>
+     <tr><td><div align="right"><a name="139"></a><a href="#139">139</a></div></td><td class="codeLine">     * @param string $item_format</td></tr>
+     <tr><td><div align="right"><a name="140"></a><a href="#140">140</a></div></td><td class="codeLine">     * @return boolean</td></tr>
+     <tr><td><div align="right"><a name="141"></a><a href="#141">141</a></div></td><td class="codeLine">     */</td></tr>
+     <tr><td><div align="right"><a name="142"></a><a href="#142">142</a></div></td><td class="codeLine">    public function the_input( $tag, $title_format, $item_format ) {</td></tr>
+     <tr class="danger"><td><div align="right"><a name="143"></a><a href="#143">143</a></div></td><td class="codeLine">        $term_id = ( is_object( $tag ) ? $tag-&gt;term_id : 0 );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="144"></a><a href="#144">144</a></div></td><td class="codeLine">        $blogs   = MslsBlogCollection::instance()-&gt;get();</td></tr>
+     <tr class="danger"><td><div align="right"><a name="145"></a><a href="#145">145</a></div></td><td class="codeLine">        if ( $blogs ) {</td></tr>
+     <tr class="danger"><td><div align="right"><a name="146"></a><a href="#146">146</a></div></td><td class="codeLine">            $my_data = MslsOptionsTax::create( $term_id );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="147"></a><a href="#147">147</a></div></td><td class="codeLine">            $type    = MslsContentTypes::create()-&gt;get_request();</td></tr>
+     <tr><td><div align="right"><a name="148"></a><a href="#148">148</a></div></td><td class="codeLine"></td></tr>
+     <tr class="danger"><td><div align="right"><a name="149"></a><a href="#149">149</a></div></td><td class="codeLine">            printf(</td></tr>
+     <tr class="danger"><td><div align="right"><a name="150"></a><a href="#150">150</a></div></td><td class="codeLine">                $title_format,</td></tr>
+     <tr class="danger"><td><div align="right"><a name="151"></a><a href="#151">151</a></div></td><td class="codeLine">                __( 'Multisite Language Switcher', 'msls' ),</td></tr>
+     <tr><td><div align="right"><a name="152"></a><a href="#152">152</a></div></td><td class="codeLine">                $type</td></tr>
+     <tr class="danger"><td><div align="right"><a name="153"></a><a href="#153">153</a></div></td><td class="codeLine">            );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="154"></a><a href="#154">154</a></div></td><td class="codeLine">            foreach ( $blogs as $blog ) {</td></tr>
+     <tr class="danger"><td><div align="right"><a name="155"></a><a href="#155">155</a></div></td><td class="codeLine">                switch_to_blog( $blog-&gt;userblog_id );</td></tr>
+     <tr><td><div align="right"><a name="156"></a><a href="#156">156</a></div></td><td class="codeLine"></td></tr>
+     <tr class="danger"><td><div align="right"><a name="157"></a><a href="#157">157</a></div></td><td class="codeLine">                $language = $blog-&gt;get_language();</td></tr>
+     <tr class="danger"><td><div align="right"><a name="158"></a><a href="#158">158</a></div></td><td class="codeLine">                $flag_url = MslsOptions::instance()-&gt;get_flag_url( $language );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="159"></a><a href="#159">159</a></div></td><td class="codeLine">                $icon     = MslsAdminIcon::create()-&gt;set_language( $language )-&gt;set_src( $flag_url );</td></tr>
+     <tr><td><div align="right"><a name="160"></a><a href="#160">160</a></div></td><td class="codeLine"></td></tr>
+     <tr class="danger"><td><div align="right"><a name="161"></a><a href="#161">161</a></div></td><td class="codeLine">                $value = $title = '';</td></tr>
+     <tr class="danger"><td><div align="right"><a name="162"></a><a href="#162">162</a></div></td><td class="codeLine">                if ( $my_data-&gt;has_value( $language ) ) {</td></tr>
+     <tr class="danger"><td><div align="right"><a name="163"></a><a href="#163">163</a></div></td><td class="codeLine">                    $term = get_term( $my_data-&gt;$language, $type );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="164"></a><a href="#164">164</a></div></td><td class="codeLine">                    if ( is_object( $term ) ) {</td></tr>
+     <tr class="danger"><td><div align="right"><a name="165"></a><a href="#165">165</a></div></td><td class="codeLine">                        $icon-&gt;set_href( $my_data-&gt;$language );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="166"></a><a href="#166">166</a></div></td><td class="codeLine">                        $value = $my_data-&gt;$language;</td></tr>
+     <tr class="danger"><td><div align="right"><a name="167"></a><a href="#167">167</a></div></td><td class="codeLine">                        $title = $term-&gt;name;</td></tr>
+     <tr class="danger"><td><div align="right"><a name="168"></a><a href="#168">168</a></div></td><td class="codeLine">                    }</td></tr>
+     <tr class="danger"><td><div align="right"><a name="169"></a><a href="#169">169</a></div></td><td class="codeLine">                }</td></tr>
+     <tr class="danger"><td><div align="right"><a name="170"></a><a href="#170">170</a></div></td><td class="codeLine">                printf(</td></tr>
+     <tr class="danger"><td><div align="right"><a name="171"></a><a href="#171">171</a></div></td><td class="codeLine">                    $item_format,</td></tr>
+     <tr class="danger"><td><div align="right"><a name="172"></a><a href="#172">172</a></div></td><td class="codeLine">                    $blog-&gt;userblog_id,</td></tr>
+     <tr class="danger"><td><div align="right"><a name="173"></a><a href="#173">173</a></div></td><td class="codeLine">                    $icon,</td></tr>
+     <tr class="danger"><td><div align="right"><a name="174"></a><a href="#174">174</a></div></td><td class="codeLine">                    $language,</td></tr>
+     <tr class="danger"><td><div align="right"><a name="175"></a><a href="#175">175</a></div></td><td class="codeLine">                    $value,</td></tr>
+     <tr><td><div align="right"><a name="176"></a><a href="#176">176</a></div></td><td class="codeLine">                    $title</td></tr>
+     <tr class="danger"><td><div align="right"><a name="177"></a><a href="#177">177</a></div></td><td class="codeLine">                );</td></tr>
+     <tr class="danger"><td><div align="right"><a name="178"></a><a href="#178">178</a></div></td><td class="codeLine">                restore_current_blog();</td></tr>
+     <tr class="danger"><td><div align="right"><a name="179"></a><a href="#179">179</a></div></td><td class="codeLine">            }</td></tr>
+     <tr class="danger"><td><div align="right"><a name="180"></a><a href="#180">180</a></div></td><td class="codeLine">            return true;</td></tr>
+     <tr><td><div align="right"><a name="181"></a><a href="#181">181</a></div></td><td class="codeLine">        }</td></tr>
+     <tr class="danger"><td><div align="right"><a name="182"></a><a href="#182">182</a></div></td><td class="codeLine">        return false;</td></tr>
+     <tr><td><div align="right"><a name="183"></a><a href="#183">183</a></div></td><td class="codeLine">    }</td></tr>
+     <tr><td><div align="right"><a name="184"></a><a href="#184">184</a></div></td><td class="codeLine"></td></tr>
+     <tr><td><div align="right"><a name="185"></a><a href="#185">185</a></div></td><td class="codeLine">    /**</td></tr>
+     <tr><td><div align="right"><a name="186"></a><a href="#186">186</a></div></td><td class="codeLine">     * Set calls the save method if taxonomy is set</td></tr>
+     <tr><td><div align="right"><a name="187"></a><a href="#187">187</a></div></td><td class="codeLine">     * @param int $term_id</td></tr>
+     <tr><td><div align="right"><a name="188"></a><a href="#188">188</a></div></td><td class="codeLine">      * @codeCoverageIgnore</td></tr>
+     <tr><td><div align="right"><a name="189"></a><a href="#189">189</a></div></td><td class="codeLine">     */</td></tr>
+     <tr><td><div align="right"><a name="190"></a><a href="#190">190</a></div></td><td class="codeLine">    public function set( $term_id ) {</td></tr>
+     <tr><td><div align="right"><a name="191"></a><a href="#191">191</a></div></td><td class="codeLine">        if ( MslsContentTypes::create()-&gt;acl_request() ) {</td></tr>
+     <tr><td><div align="right"><a name="192"></a><a href="#192">192</a></div></td><td class="codeLine">            $this-&gt;save( $term_id, 'MslsOptionsTax' );</td></tr>
+     <tr><td><div align="right"><a name="193"></a><a href="#193">193</a></div></td><td class="codeLine">        }</td></tr>
+     <tr><td><div align="right"><a name="194"></a><a href="#194">194</a></div></td><td class="codeLine">    }</td></tr>
+     <tr><td><div align="right"><a name="195"></a><a href="#195">195</a></div></td><td class="codeLine"></td></tr>
+     <tr><td><div align="right"><a name="196"></a><a href="#196">196</a></div></td><td class="codeLine">}</td></tr>
 
     </tbody>
    </table>
@@ -400,7 +403,7 @@
      <span class="warning"><strong>Dead Code</strong></span>
     </p>
     <p>
-     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 1.2.13</a> using <a href="http://www.php.net/" target="_top">PHP 5.5.9-1ubuntu4.3</a> and <a href="http://phpunit.de/">PHPUnit 3.7.28</a> at Mon Jul 28 17:03:00 UTC 2014.</small>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 1.2.13</a> using <a href="http://www.php.net/" target="_top">PHP 5.5.9-1ubuntu4.3</a> and <a href="http://phpunit.de/">PHPUnit 3.7.28</a> at Wed Aug 27 17:05:41 UTC 2014.</small>
     </p>
    </footer>
   </div>
