@@ -103,7 +103,7 @@ class MslsBlogCollection implements IMslsRegistryInstance {
 
 	/**
 	 * Returns the description of an configured blog or false if it is not configured
-	 * @param int $blog
+	 * @param int $blog_id
 	 * @param string|bool $description
 	 * @return string|bool
 	 */
