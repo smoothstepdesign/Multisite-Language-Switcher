@@ -27,7 +27,7 @@ posts, pages, custom post types, categories, tags and custom taxonomies.
 
 The plugin uses flag-icons from [FamFamFam](http://famfamfam.com). 
 Thanks to Mark James for his great work. In addition I would like to 
-thank [Jürgen Mayer](http://blog.jrmayer.co/) for creating the plugin's 
+thank [JÃ¼rgen Mayer](http://blog.jrmayer.co/) for creating the plugin's 
 banner.
 
 ## Translators
@@ -44,7 +44,7 @@ banner.
 *  Romanian (ro_RO) - [Armand K](http://caveatlector.eu/)
 *  Polish (pl_PL) - [Kamil Frejlich](http://www.mojito-networks.com/)
 *  Lithuanian (lt_LT) - Ovidijus Pukys
-*  Catalan (ca_ES) - Joan López
+*  Catalan (ca_ES) - Joan LÃ³pez
 *  Czech (cs_CZ) - Rastr
 *  Hungarian (hu_HU) - RobiG
 *  Georgian (ka_GE) - [Jas Saran](http://www.gwebpro.com/)
