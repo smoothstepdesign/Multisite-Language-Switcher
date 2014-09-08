@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Multisite Language Switcher
 tagline:          'Simple, powerful and easy to use'
-description:      'A simple, powerful and easy to use plugin that will help you to manage multilingual content in a multisite WordPress installation. Made by <a href="http://profiles.wordpress.org/realloc/" target="_blank">realloc</a>.'
+description:      'A simple, powerful and easy to use plugin that will help you to manage multilingual content in a multisite WordPress installation made by <a href="http://profiles.wordpress.org/realloc/" target="_blank">realloc</a>.'
 url:              http://msls.co
 baseurl:          '/'
 paginate:         5
