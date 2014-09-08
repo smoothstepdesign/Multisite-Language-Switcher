@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Multisite Language Switcher
+tagline:          'Multilingual switching in WordPress with the user in mind'
+description:      'A simple, powerful and easy to use plugin that will help you to manage multilingual content in a multisite WordPress installation. Made by <a href="http://profiles.wordpress.org/realloc/" target="_blank">realloc</a>.'
+url:              http://msls.co
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Dennis Ploetner'
+  url:            https://twitter.com/realloc
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/lloc/Multisite-Language-Switcher
