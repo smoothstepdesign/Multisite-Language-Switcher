@@ -7,13 +7,25 @@ The Multisite Language Switcher provides some filters and actions whose are very
 
 *Read first the [introduction](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters) provided by the WordPress community if you don't know what hooks are.*
 
+## msls\_admin\_icon\_get\_edit\_new ##
+
+If you want to change the link of the admin icon in case there is no object connected then this filter is for you. The default is that the link points to the create new page of this object type.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_admin_icon_get_edit_new.php.php %}
+
+*This would add the parameter 'abc' with the value 'xyz' to the url path.*
+
 ## msls\_admin\_validate ##
 
-You can use this filter if you want to add some custom validation for an input field in configuration page of the plugin. This can be useful if you added your own input fields to this page.
+You can use this filter if you want to add some custom validation for an input field in configuration page of the plugin.
 
 Example:
 
 {% gist lloc/5f922fc770d818365992 msls_admin_validate.php %}
+
+*This can be useful if you added your own input fields to this page.*
 
 ## msls\_filter\_string ##
 
