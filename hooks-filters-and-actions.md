@@ -140,3 +140,12 @@ Example:
 {% gist lloc/5f922fc770d818365992 msls_output_get.php %}
 
 *This would transform the absolute URL in a relative one and would add the css-class 'current' to the link of the current blog.*
+
+## msls\_output\_get\_tags ##
+
+You can configure the output-tags in the admin settings of the plugin but you can also override these with a filter.
+
+{% gist lloc/5f922fc770d818365992 msls_output_get_tags.php %}
+
+*This would override completely the configuration without looking for existing values.*
+
