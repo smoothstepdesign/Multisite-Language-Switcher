@@ -80,3 +80,13 @@ Example:
 {% gist lloc/5f922fc770d818365992 msls_link_create.php %}
 
 *This adds label tags to the descriptional text after the flag icon.*
+
+## msls\_meta_box\_suggest\_args ##
+
+Maybe you'll find it useful that you can override the WP_Query *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the different post-types. 
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_meta_box_suggest_args.php %}
+
+*This would limit the output of the results to 5.*
