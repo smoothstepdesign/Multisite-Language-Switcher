@@ -71,3 +71,12 @@ Example:
 
     remove_action( 'wp_head', 'msls_head' );
 
+## msls\_link\_create ##
+
+There is also a way to manipulate the inner HTML in the generated links. Just create your own MslsLink class.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_link_create.php %}
+
+*This adds label tags to the descriptional text after the flag icon.*
