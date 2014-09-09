@@ -83,7 +83,7 @@ Example:
 
 ## msls\_meta\_box\_suggest\_args ##
 
-Maybe you'll find it useful that you can override the WP_Query *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types of your WordPress site. 
+Maybe you'll find it useful that you can override the [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types of your WordPress site. 
 
 Example:
 
@@ -93,10 +93,40 @@ Example:
 
 ## msls\_meta\_box\_suggest\_post ##
 
-You can even manipulate the WP_Post-objects in the result-set created in *msls\_meta\_box\_suggest\_args*. 
+You can even manipulate the [WP_Post](http://codex.wordpress.org/Class_Reference/WP_Post)-objects in the result-set created in 'msls\_meta\_box\_suggest\_args'. 
 
 Example:
 
 {% gist lloc/5f922fc770d818365992 msls_meta_box_suggest_post.php %}
 
 *This would add the post_id to title of the posts in the autocomplete-field of the meta box.*
+
+## msls\_options\_get\_available\_languages ##
+
+You can create a custom function to filter the available languages used in the language section of the plugin-settings.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_options_get_available_languages.php %}
+
+*Even if it's still not fully tested, it seems to be a cool method to add a language without the language files installed. In this case it would resolve the issue with the American flag and the Union jack.*
+
+## msls\_options\_get\_flag\_url ##
+
+You can set the path to the flag-icons in the admin settings of the plugin but you can also override the path with a filter.
+ 
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_options_get_flag_url.php %}
+
+*This 'sets' the path to the flag icons to a directory 'images' in the active theme.*
+
+## msls\_options\_get\_permalink ##
+
+I decided to add a filter to the implementation of get_permalink in the plugin so that I can offer a workaround for the issues with the possibility to localize the slugs of custom post types.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_options_get_permalink.php %}
+
+*This replaces the 'products'-part in the URL with 'produkte' if $language is 'de_DE'.*
