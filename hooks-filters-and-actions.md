@@ -81,9 +81,9 @@ Example:
 
 *This adds label tags to the descriptional text after the flag icon.*
 
-## msls\_meta\_box\_suggest\_args ##
+## msls\_meta\_box\_suggest\_args / msls\_post\_tag\_suggest\_args ##
 
-Maybe you'll find it useful that you can override the [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types of your WordPress site. 
+Maybe you'll find it useful that you can override the [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types or taxonomies of your WordPress site.
 
 Example:
 
@@ -91,9 +91,9 @@ Example:
 
 *This would limit the output of the results to a maximum of 5 posts.*
 
-## msls\_meta\_box\_suggest\_post ##
+## msls\_meta\_box\_suggest\_post / msls\_post\_tag\_suggest\_term ##
 
-You can even manipulate the [WP_Post](http://codex.wordpress.org/Class_Reference/WP_Post)-objects in the result-set created in 'msls\_meta\_box\_suggest\_args'. 
+You can even manipulate the [WP_Post](http://codex.wordpress.org/Class_Reference/WP_Post)- or Term-objects in the result-set created in 'msls\_meta\_box\_suggest\_args' or 'msls\_post\_tag\_suggest\_args'. 
 
 Example:
 
@@ -148,4 +148,3 @@ You can configure the output-tags in the admin settings of the plugin but you ca
 {% gist lloc/5f922fc770d818365992 msls_output_get_tags.php %}
 
 *This would override completely the configuration without looking for existing values.*
-
