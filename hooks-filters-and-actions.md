@@ -13,7 +13,7 @@ If you want to change the link of the admin icon in case there is no object conn
 
 Example:
 
-{% gist lloc/5f922fc770d818365992 msls_admin_icon_get_edit_new.php.php %}
+{% gist lloc/5f922fc770d818365992 msls_admin_icon_get_edit_new.php %}
 
 *This would add the parameter 'abc' with the value 'xyz' to the url path.*
 
@@ -35,7 +35,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_filter_string.php %}
 
-You can use the following code if you want to remove this filter completely:
+*You can use the following code if you want to remove this filter completely:*
 
     remove_action( 'the_content', 'msls_content_filter' );
 
@@ -47,7 +47,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_head_hreflang.php %}
 
-You can use the following code if you want to remove these tags completely:
+*You can use the following code if you want to remove these tags completely:*
 
     remove_action( 'wp_head', 'msls_head' );
 
