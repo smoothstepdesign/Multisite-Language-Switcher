@@ -37,6 +37,16 @@ Example:
 
 *This would exclude the blog with the ID 1 from the collection.*
 
+## msls\_blog\_collection\_description ##
+
+The description string of every blog is not fix. You can override it.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_blog_collection_description.php %}
+
+*This would give the blog with the ID 1 the description 'abc' and the blog with the ID 2 the name 'xyz.*
+
 ## msls\_filter\_string ##
 
 You can override the string for the output of the translation hint. *$output* contains the original string and *$links* is an array of generated links to the available translations.
