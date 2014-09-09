@@ -130,3 +130,13 @@ Example:
 {% gist lloc/5f922fc770d818365992 msls_options_get_permalink.php %}
 
 *This replaces the 'products'-part in the URL with 'produkte' if $language is 'de_DE'.*
+
+## msls\_output\_get ##
+
+You can use th is filter if you want to change the format of the generated links to the translations in your blog.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_output_get.php %}
+
+*This would transform the absolute URL in a relative one and would add the css-class 'current' to the link of the current blog.*
