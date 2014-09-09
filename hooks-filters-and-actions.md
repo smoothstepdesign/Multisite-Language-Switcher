@@ -27,6 +27,16 @@ Example:
 
 *This can be useful if you added your own input fields to this page.*
 
+## msls\_blog\_collection\_construct ##
+
+You can easily manipulate the blog collection.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_blog_collection_construct.php %}
+
+*This would exclude the blog with the ID 1 from the collection.*
+
 ## msls\_filter\_string ##
 
 You can override the string for the output of the translation hint. *$output* contains the original string and *$links* is an array of generated links to the available translations.
