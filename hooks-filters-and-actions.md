@@ -81,12 +81,22 @@ Example:
 
 *This adds label tags to the descriptional text after the flag icon.*
 
-## msls\_meta_box\_suggest\_args ##
+## msls\_meta\_box\_suggest\_args ##
 
-Maybe you'll find it useful that you can override the WP_Query *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the different post-types. 
+Maybe you'll find it useful that you can override the WP_Query *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types of your WordPress site. 
 
 Example:
 
 {% gist lloc/5f922fc770d818365992 msls_meta_box_suggest_args.php %}
 
-*This would limit the output of the results to 5.*
+*This would limit the output of the results to a maximum of 5 posts.*
+
+## msls\_meta\_box\_suggest\_post ##
+
+You can even manipulate the WP_Post-objects in the result-set created in *msls\_meta\_box\_suggest\_args*. 
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_meta_box_suggest_post.php %}
+
+*This would add the post_id to title of the posts in the autocomplete-field of the meta box.*
