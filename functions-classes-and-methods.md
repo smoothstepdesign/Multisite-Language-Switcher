@@ -5,23 +5,27 @@ title: Functions, classes and methods
 
 Most people are likely to use the widget provided by the **Multisite Language Switcher**. But in some cases it can be useful to have the possibility to use the functions and methods of the plugin in a direct way.
 
+*Before you proceed: Backup your files and database prior to trying any of the examples here, better safe than sorry.*
+
 ## the\_msls ##
 
 This function can be placed anywhere in your theme-files such as _header.php_, _footer.php_ and _sidebar.php_. It will echo an output similar to the widget.
 
-    if ( function_exists ( 'the_msls' ) ) {
-        the_msls();
-    }
+{% gist lloc/42461e05324e9bf1924b the-msls-1.php %}
+
+You can also use some parameters to format the output to suit your needs.
+
+{% gist lloc/42461e05324e9bf1924b the-msls-2.php %}
+
+*This would create the output in in an unordered list.*
 
 ## get\_the\_msls ##
 
-Use _get\_the\_msls_ if a string is needed because your theme handles the output in a different way, for example.
+Use this function if a string is needed because your theme handles the output in a different way, for example.
 
-    $str = '';
-    if ( function_exists ( 'get_the_msls' ) ) {
-        $str = get_the_msls();
-    }
-    echo $str;
+{% gist lloc/42461e05324e9bf1924b the-msls-3.php %}
+
+**get\_the\_msls** accepts the same parameters as **the\_msls**.
 
 ## MslsOutput ##
 
