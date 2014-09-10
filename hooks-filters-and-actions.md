@@ -3,13 +3,13 @@ layout: page
 title: Hooks, filters and actions
 ---
 
-The Multisite Language Switcher provides some filters and actions whose are very useful for programmers who wants to interact with the plugin from their functions and classes.
+The Multisite Language Switcher provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.
 
 *Read first the [introduction](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters) provided by the WordPress community if you don't know what hooks are.*
 
 ## msls\_admin\_icon\_get\_edit\_new ##
 
-If you want to change the link of the admin icon in case there is no object connected then this filter is for you. The default is that the link points to the create new page of this object type.
+If you want to change the link of the admin icon in case there is no object connected then this filter is for you. The default is that the link points to the 'create new page' of this object type.
 
 Example:
 
@@ -19,13 +19,13 @@ Example:
 
 ## msls\_admin\_validate ##
 
-You can use this filter if you want to add some custom validation for an input field in configuration page of the plugin.
+You can use this filter if you want to add some custom validation for an input field in the configuration page of the plugin.
 
 Example:
 
 {% gist lloc/5f922fc770d818365992 msls_admin_validate.php %}
 
-*This can be useful if you added your own input fields to this page.*
+*This can be useful if you have added your own input fields to this page.*
 
 ## msls\_blog\_collection\_construct ##
 
@@ -39,7 +39,7 @@ Example:
 
 ## msls\_blog\_collection\_description ##
 
-The description string of every blog is not fix. You can override it.
+The description string of every blog is not fixed. You can override it.
 
 Example:
 
@@ -83,7 +83,7 @@ Example:
 
 ## msls\_meta\_box\_suggest\_args / msls\_post\_tag\_suggest\_args ##
 
-Maybe you'll find it useful that you can override the [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types or taxonomies of your WordPress site.
+Maybe you will find it useful to be able to override the [WP_Query](http://codex.wordpress.org/Class_Reference/WP_Query) *$args* for the auto-complete search-field in the meta box which you can see in the edit-screen of the various post-types or taxonomies of your WordPress site.
 
 Example:
 
@@ -99,7 +99,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_meta_box_suggest_post.php %}
 
-*This would add the post_id to title of the posts in the autocomplete-field of the meta box.*
+*This would add the post_id to the title of the posts in the autocomplete-field of the meta box.*
 
 ## msls\_options\_get\_available\_languages ##
 
@@ -109,7 +109,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_options_get_available_languages.php %}
 
-*Even if it's still not fully tested, it seems to be a cool method to add a language without the language files installed. In this case it would resolve the issue with the American flag and the Union jack.*
+*Even if it is still not fully tested, it seems to be a smart way to add a language without the language files installed. In this case it would solve the issue with the American flag and the Union Jack.*
 
 ## msls\_options\_get\_flag\_url ##
 
@@ -119,7 +119,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_options_get_flag_url.php %}
 
-*This 'sets' the path to the flag icons to a directory 'images' in the active theme.*
+*This 'sets' the path to the flag icons to the directory 'images' in the active theme.*
 
 ## msls\_options\_get\_permalink ##
 
@@ -133,7 +133,7 @@ Example:
 
 ## msls\_output\_get ##
 
-You can use th is filter if you want to change the format of the generated links to the translations in your blog.
+You can use this filter if you want to change the format of the generated links to the translations in your blog.
 
 Example:
 
