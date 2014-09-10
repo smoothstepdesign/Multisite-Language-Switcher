@@ -17,6 +17,28 @@ Example:
 
 *This would add the parameter 'abc' with the value 'xyz' to the url path.*
 
+## msls\_admin\_language\_section \ msls\_admin\_main\_section \ msls\_admin\_advanced\_section ##
+
+If you want to add custom input fields to the existing sections in the settings of the plugin then you can use one of these actions.
+
+{% gist lloc/5f922fc770d818365992 msls_admin_main_section.php %}
+
+*This would add an input field 'custom field' to the main-section of the settings-page.*
+
+## msls\_admin\_register ##
+
+If you want to add a completely customized settings section to the configuration-pages of the Multisite Language Switcher then you can use this action.
+ 
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_admin_register.php %}
+
+*This would add a section with the id 'custom section' and an input field 'custom field' to the settings-page of the plugin.*
+
+## msls\_admin\_language\_section \ msls\_admin\_main\_section \ msls\_admin\_advanced\_section ##
+
+There is also a way to add input fields to the exiting sections. Just use one of this actions.
+
 ## msls\_admin\_validate ##
 
 You can use this filter if you want to add some custom validation for an input field in the configuration page of the plugin.
@@ -25,7 +47,7 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_admin_validate.php %}
 
-*This can be useful if you have added your own input fields to this page.*
+*This can be useful if you have added your own input fields to this page using an action hook like 'msls\_admin\_register'.*
 
 ## msls\_blog\_collection\_construct ##
 
@@ -80,6 +102,16 @@ Example:
 {% gist lloc/5f922fc770d818365992 msls_link_create.php %}
 
 *This adds label tags to the descriptional text after the flag icon.*
+
+## msls\_main\_save ##
+
+With this action you can call a completely customized save-routine.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_main_save.php %}
+
+*Use this action only if you exactly know what you do!* 
 
 ## msls\_meta\_box\_suggest\_args / msls\_post\_tag\_suggest\_args ##
 
