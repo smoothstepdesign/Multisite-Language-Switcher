@@ -35,10 +35,6 @@ Example:
 
 *This would add a section with the id 'custom section' and an input field 'custom field' to the settings-page of the plugin.*
 
-## msls\_admin\_language\_section \ msls\_admin\_main\_section \ msls\_admin\_advanced\_section ##
-
-There is also a way to add input fields to the exiting sections. Just use one of this actions.
-
 ## msls\_admin\_validate ##
 
 You can use this filter if you want to add some custom validation for an input field in the configuration page of the plugin.
