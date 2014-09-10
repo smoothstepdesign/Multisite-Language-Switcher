@@ -3,7 +3,7 @@ layout: page
 title: Hooks, filters and actions
 ---
 
-The Multisite Language Switcher provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.
+The **Multisite Language Switcher** provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.
 
 *Read first the [introduction](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters) provided by the WordPress community if you don't know what hooks are.*
 
