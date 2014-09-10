@@ -5,7 +5,7 @@ title: Functions, classes and methods
 
 Most people are likely to use the widget provided by the **Multisite Language Switcher**. But in some cases it can be useful to have the possibility to use the functions and methods of the plugin in a direct way.
 
-*Before you proceed: Backup your files and database prior to trying any of the examples here, better safe than sorry.*
+*Before you proceed: Backup your files and database prior to trying any of these examples here, better safe than sorry.*
 
 ## the\_msls ##
 
@@ -17,7 +17,7 @@ You can also use some parameters to format the output to suit your needs.
 
 {% gist lloc/42461e05324e9bf1924b the-msls-2.php %}
 
-*This would create the output in in an unordered list.*
+*This would create the output formatted in an unordered list.*
 
 ## get\_the\_msls ##
 
@@ -29,14 +29,9 @@ Use this function if a string is needed because your theme handles the output in
 
 ## MslsOutput ##
 
-All these functions use an object type of __MslsOutput__. The method _\_\_toString_ handles all needs when this object is printed. But you can use the _get_-method directly if you want to work with an array of links before it is converted:
+All these functions use an object type of __MslsOutput__. The magic method '__toString' handles all needs when this object is printed. But you can use the _get_-method directly if you want to work - for example - with an array of links before it is converted:
 
-    $display = 0;
-    $exists  = false;
-    $obj     = new MslsOutput();
-    foreach ( $obj->get( $display, $exists ) as $link ) {
-        echo $link;
-    } 
+{% gist lloc/42461e05324e9bf1924b mslsoutput-1.php %}
 
 The parameter _$display_ is an integer which can contain any number from 0 to 4. There is a static method in the class MslsLink which is used in a similar way in the option-page of the plugin:
 
