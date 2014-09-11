@@ -20,20 +20,20 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">- {{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.url }}/api-documentation/">API Documentation</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <a class="sidebar-nav-item" href="http://downloads.wordpress.org/plugin/multisite-language-switcher.{{ site.version }}.zip">Download stable</a>
-    <span class="sidebar-nav-item">Current Version {{ site.version }}</span>
+    <a class="sidebar-nav-item" href="http://downloads.wordpress.org/plugin/multisite-language-switcher.{{ site.version }}.zip">Download stable {{ site.version }}</a>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
     </p>
   </div>
 </div>
