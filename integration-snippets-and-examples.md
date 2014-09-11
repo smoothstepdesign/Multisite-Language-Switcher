@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Integration, snippets and examples
+title: Integration, snippets & examples
 ---
 
 Most people are likely to use the widget provided by the **Multisite Language Switcher**. But the dynamic sidebars are not always the best place for the output of the plugin.

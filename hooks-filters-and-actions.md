@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hooks, filters and actions
+title: Hooks, filters & actions
 ---
 
 The **Multisite Language Switcher** provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.
