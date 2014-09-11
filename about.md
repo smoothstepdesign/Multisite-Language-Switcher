@@ -3,15 +3,10 @@ layout: page
 title: About
 ---
 
-# Multisite Language Switcher
-
 _Please keep in mind that the version of the Multisite Language Switcher at GitHub is a work in progress._
 
 **Download the [latest stable from the WordPress Plugin Directory](http://downloads.wordpress.org/plugin/multisite-language-switcher.zip).**
  
-[![Build Status](https://api.travis-ci.org/lloc/Multisite-Language-Switcher.png)](https://api.travis-ci.org/lloc/Multisite-Language-Switcher)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/lloc/Multisite-Language-Switcher/badges/quality-score.png?s=a2e5dbac2690bbd427f2d48b84473482e7e24fdb)](https://scrutinizer-ci.com/g/lloc/Multisite-Language-Switcher/)
-
 A simple, powerful and easy to use plugin that will add 
 multilingual support to a WordPress 
 [multisite](http://codex.wordpress.org/Create_A_Network) 
@@ -78,12 +73,6 @@ Now you can:
 *  use a widget and/or a content_filter which displays a hint to the user if a translation is available
 *  optionally you can place the code `<?php if ( function_exists( 'the_msls' ) ) the_msls(); ?>` directly in your theme files
 
-Review the
-[Multisite Language Switcher Wiki](https://github.com/lloc/Multisite-Language-Switcher/wiki)
-or the
-[API Documentation](http://msls.co/api-documentation/)
-for more information.
-
-## License
+## License ##
 
 Multisite Language Switcher is Open Source and, to be more precise, is distributed under [GNU General Public License Version 2](http://www.gnu.org/licenses/gpl-2.0.html). This means that the plugin can also be used in a commercial surrounding.
