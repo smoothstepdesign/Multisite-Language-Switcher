@@ -29,7 +29,7 @@ Use this function if a string is needed because your theme handles the output in
 
 ## MslsOutput ##
 
-All these functions use an object type of __MslsOutput__. The magic method '__toString' handles all needs when this object is printed. But you can use the _get_-method directly if you want to work - for example - with an array of links before it is converted:
+All these functions use an object type of __MslsOutput__. The magic method '\_\_toString' handles all needs when this object is printed. But you can use the 'get'-method directly if you want to work - for example - with the returning array of links before it is converted:
 
 {% gist lloc/42461e05324e9bf1924b mslsoutput-1.php %}
 
