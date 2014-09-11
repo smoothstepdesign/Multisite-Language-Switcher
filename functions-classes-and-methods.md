@@ -25,7 +25,7 @@ You can also use some parameters to format the output to suit your needs.
 
 Use this function if a string is needed because your theme handles the output in a different way, for example.
 
-{% gist lloc/42461e05324e9bf1924b the-msls-3.php %}
+{% gist lloc/42461e05324e9bf1924b get-the-msls.php %}
 
 **get\_the\_msls** accepts the same parameters as **the\_msls**.
 
@@ -33,7 +33,7 @@ Use this function if a string is needed because your theme handles the output in
 
 All these functions use an object type of __MslsOutput__. The magic method '\_\_toString' handles all needs when this object is printed. But you can use the 'get'-method directly if you want to work - for example - with the returning array of links before it is converted:
 
-{% gist lloc/42461e05324e9bf1924b mslsoutput-1.php %}
+{% gist lloc/42461e05324e9bf1924b mslsoutput.php %}
 
 The parameter _$display_ is an integer which can contain any number from 0 to 4. There is a static method in the class MslsLink which is used in a similar way in the option-page of the plugin:
 
