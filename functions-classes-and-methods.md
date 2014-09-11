@@ -3,9 +3,11 @@ layout: page
 title: Functions, classes and methods
 ---
 
-Most people are likely to use the widget provided by the **Multisite Language Switcher**. But in some cases it can be useful to have the possibility to use the functions and methods of the plugin in a direct way.
+In some cases it can be useful to have the possibility to use the functions and methods of the plugin in a direct way.
 
 *Before you proceed: Backup your files and database prior to trying any of these examples here, better safe than sorry.*
+
+**If you just look for examples of how to integrate the plugin then head over  [to this page](integration-snippets-and-examples).**
 
 ## the\_msls ##
 
@@ -37,42 +39,4 @@ The parameter _$display_ is an integer which can contain any number from 0 to 4.
 
     print_r( MslsLink::get_types() );
 
-If you want to show links to existing translations only set the parameter _$exists_ to _true_. 
-
-### Manipulate the Navigation Menu ###
-
-The class _MslsOutput_ comes also in handy when you'd like to manipulate the items of a Navigation Menu. First you should check if a class with the name _MslsOutput_ exists and if it's the _primary_ menu in your theme (the name can vary). Then you can create the object and request the array of links (in my example just linked flags) to the translations. After that you can create the output, add it to _$items_ and return it.
-
-    function my_custom_menu_item( $items, $args ) {
-        if ( function_exists ( 'the_msls' ) && 'primary' == $args->theme_location ) {
-            $obj = new MslsOutput;
-            $arr = $obj->get( 2 );
-            if ( !empty( $arr ) ) {
-                $items .= '<li>' . implode( '</li><li>', $arr ) . '</li>';
-            }
-        }
-        return $items;
-    }
-    add_filter( 'wp_nav_menu_items', 'my_custom_menu_item', 10, 2 );
-
-You could pass - of course - other values different from _2_. Here is a list with all possibilities:
-
-    /**
-     * MslsLink - Image + text
-     */
-    $arr = $obj->get( 0 );
-
-    /**
-     * MslsLinkTextOnly - Just text
-     */
-    $arr = $obj->get( 1 );
-
-    /**
-     * MslsLinkImageOnly - Just image
-     */
-    $arr = $obj->get( 2 );
-
-    /**
-     * MslsLinkTextImage - Text + image
-     */
-    $arr = $obj->get( 3 );
+If you want to show links to existing translations only set the parameter _$exists_ to _true_.
