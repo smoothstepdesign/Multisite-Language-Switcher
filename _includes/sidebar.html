@@ -4,18 +4,8 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
-
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
     {% assign pages_list = site.pages %}
     {% for node in pages_list %}
       {% if node.title != null %}
@@ -24,11 +14,9 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-
     <a class="sidebar-nav-item" href="{{ site.url }}/api-documentation/">API Documentation</a>
     <a class="sidebar-nav-item" href="http://downloads.wordpress.org/plugin/multisite-language-switcher.{{ site.version }}.zip">Download latest version ({{ site.version }})</a>
   </nav>
-
   <div class="sidebar-item">
     <p>
       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
