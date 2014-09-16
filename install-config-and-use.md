@@ -31,7 +31,7 @@ So far the plugin installation follows the usual procedure. In a practical way, 
 
 ## 4. Settings in the administration menu ##
 
-The plugin settings are rather simple (in the **Administration Menu -> Settings -> Multisite Language Switcher**). You need to activate the plugin once in each blog : click « Save » at the bottom of the settings even if you haven't changed anything yet. It's the only way for the plugin to offer the necessary flexibility, regarding each language for example.
+The plugin settings are rather simple (in the **Administration Menu -> Settings -> Multisite Language Switcher**). You need to activate the plugin once in each blog : click Â« Save Â» at the bottom of the settings even if you haven't changed anything yet. It's the only way for the plugin to offer the necessary flexibility, regarding each language for example.
 
 ![Settings](https://lh6.googleusercontent.com/-8yXROYsGN_Q/T7oQfpONDtI/AAAAAAAABSQ/qhNr4UrijVI/s800/howto2.jpg)
 
@@ -55,9 +55,9 @@ With the last two features, you decide if you wish to let the visitor know (and 
 
 ## 7. Editing Association of posts ##
 
-On the pages and posts edition screen, a new **Multisite Language Switcher** feature has appeared at the top left, in the side bar of existing pages or posts (thus it is displayed after the first « Save » of a page/post).
+On the pages and posts edition screen, a new **Multisite Language Switcher** feature has appeared at the top left, in the side bar of existing pages or posts (thus it is displayed after the first Â« Save Â» of a page/post).
 
-The scroll menu next to each flag shows the pages or posts titles. All you have to do is to choose the corresponding translation and to click on « **Update** ». This association between one page or post of one blog and another page or post belonging to another blog is automatically updated on the other blog too.
+The scroll menu next to each flag shows the pages or posts titles. All you have to do is to choose the corresponding translation and to click on Â« **Update** Â». This association between one page or post of one blog and another page or post belonging to another blog is automatically updated on the other blog too.
 
 ![Association of posts written in different languages](https://lh4.googleusercontent.com/-_g0dk_aqo0c/T7oOHRlgShI/AAAAAAAABSA/Dxe-w0doBzw/s800/howto3.jpg)
 
@@ -67,4 +67,4 @@ As described in the section Settings, besides indicating for each post or page t
  
 `<?php if ( function_exists( 'the_msls' ) ) the_msls(); ?>`
 
-There probably will be new other possible features in the next versions of this plugin…
+There probably will be new other possible features in the next versions of this pluginâ€¦
