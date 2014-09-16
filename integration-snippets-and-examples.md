@@ -7,6 +7,14 @@ Most people are likely to use the widget provided by the **Multisite Language Sw
 
 *Please keep in mind: Always backup your files and database prior to work on your site, better safe than sorry.*
 
+## Get the current language ##
+
+You can use the constant _WPLANG_ provided by WordPress if you want to know the language of the current blog. It seems that this constant is empty when the current blog runs in English.
+
+The Multisite Language Switcher sets the language to 'us' in this case. If you want to use this functionality you can write something like that:
+
+{% gist lloc/21f15fa36e089340c124 language.php %}
+
 ## Manipulate the Navigation Menu ##
 
 The class _MslsOutput_ comes in handy when you'd like to manipulate the items of a Navigation Menu. First you should check if plugin is active (just check for the existence of function 'the_msls') and if it is the _primary_ menu in your theme (the name can vary). Then you can create the object and request the array of links (in my example just linked flags) to the translations. After that you can create the output, add it to _$items_ and return it.
