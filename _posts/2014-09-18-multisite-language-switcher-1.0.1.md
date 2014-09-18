@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multisite Language Switcher 1.0.1
+title: Version 1.0.1 is out
 comments: true
 ---
 
