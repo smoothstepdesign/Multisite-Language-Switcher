@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Multisite Language Switcher 1.0 
+title: Multisite Language Switcher 1.0
+comments: true
 ---
 
 Version 1.0 of the Multisite Language Switcher plugin for WordPress is now available!
