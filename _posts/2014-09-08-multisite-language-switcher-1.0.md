@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Major update: MSLS Version 1.0
+title: Major update - MSLS Version 1.0
 comments: true
 ---
 
