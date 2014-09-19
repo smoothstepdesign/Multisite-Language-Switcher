@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About, help & license
+weight: 1
 ---
 
 ## Introduction ##

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Functions, classes & methods
+weight: 4
 ---
 
 In some cases it can be useful to have the possibility to use the functions and methods of the plugin in a direct way.
