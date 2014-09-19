@@ -4,12 +4,10 @@ title: About, help & license
 weight: 1
 ---
 
-## Introduction ##
-
 More and more often, I have to install WordPress in several languages. There were basically two solutions for creating websites in more than one language on WordPress:
 
-*  either install WordPress for every wanted language,
-*  or use one of the plugins available for multilingual blogs, like WPLM for instance.
+* either install WordPress for every wanted language,
+* or use one of the plugins available for multilingual blogs, like WPLM for instance.
 
 When **WordPress 3.0** was issued, including the multisite feature (allowing the creation of several blogs within one single WordPress installation), I then indicated that the time had come to offer a third solution – solution which still today, seems the most valid to me. In reality, the only thing that was missing then was the possibility of managing the relationships between posts and their translations.
 
@@ -17,10 +15,10 @@ In February 2010, surprise! The news occurred: WPML had become a commercial plug
 
 However, it was for me the right time to work more intensively on the third solution and to create the **Multisite Language Switcher** plugin.
 
-> *  View the original article [in German](http://lloc.de/msls)
-> *  View the article [in Italian](http://lloc.it/multisite-language-switcher)
-> *  View the article [in French](http://www.julienmeyer.net/multisite-language-switcher/)
-> *  View the [plugin page](http://wordpress.org/extend/plugins/multisite-language-switcher/) in the WordPress Plugin Directory
+> - View the original article [in German](http://lloc.de/msls)
+> - View the article [in Italian](http://lloc.it/multisite-language-switcher)
+> - View the article [in French](http://www.julienmeyer.net/multisite-language-switcher/)
+> - View the [plugin page](http://wordpress.org/extend/plugins/multisite-language-switcher/) in the WordPress Plugin Directory
 
 ## Help and donations are welcome ##
 
@@ -28,10 +26,10 @@ I thank in advance those who are willing to test the plugin and/or describe the 
 
 If you are really eager to thank me, here are a few ideas :
 
-*  Write an article on the **Multisite Language Switcher** plugin.
-*  Post a [link to the plugin](http://wordpress.org/extend/plugins/multisite-language-switcher/).
-*  [Send me](mailto:re@lloc.de) your opinion so that the project can improve.
-*  If you prefer to thank me with money, I suggest that you make a donation to [Greenpeace](http://www.greenpeace.org/international/en/).
+- Write an article on the **Multisite Language Switcher** plugin.
+- Post a [link to the plugin](http://wordpress.org/extend/plugins/multisite-language-switcher/).
+- [Send me](mailto:re@lloc.de) your opinion so that the project can improve.
+- If you prefer to thank me with money, I suggest that you make a donation to [Greenpeace](http://www.greenpeace.org/international/en/) or consider donating items from this [Amazon Wish List](http://www.amazon.com/gp/registry/wishlist/LXBNMOI93IJS/ref=topnav_lists_1).
 
 ## Acknowledgment ##
 
