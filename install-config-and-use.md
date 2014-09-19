@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Install, config and use
+title: Install, config & use
 ---
 
 ## Install a multisite environment ##
