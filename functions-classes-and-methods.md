@@ -8,7 +8,7 @@ In some cases it can be useful to have the possibility to use the functions and 
 
 **Before you proceed: Backup your files and database prior to trying any of these examples here, better safe than sorry.**
 
-*If you just look for further examples of how to integrate the plugin or intact with its functionality, then head over  [to this page]({{site.url}}/integration-snippets-and-examples).*
+> *If you just look for further examples of how to integrate the plugin or intact with its functionality, then head over  [to this page]({{site.url}}/integration-snippets-and-examples).*
 
 ## the\_msls ##
 

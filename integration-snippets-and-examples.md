@@ -6,9 +6,10 @@ weight: 4
 
 Most people are likely to use the widget provided by the **Multisite Language Switcher**. But the dynamic sidebars are not always the best place for the output of the plugin.
 
+
 **Please keep in mind: Always backup your files and database prior to work on your site, better safe than sorry.**
 
-*If you look for explanations of the basic functions, classes and methods of the plugin, then head over  [to this page]({{site.url}}/functions-classes-and-methods).*
+> *If you look for explanations of the basic functions, classes and methods of the plugin, then head over  [to this page]({{site.url}}/functions-classes-and-methods).*
 
 ## Get the current language ##
 
