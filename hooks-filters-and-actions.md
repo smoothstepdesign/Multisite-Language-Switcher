@@ -6,6 +6,8 @@ weight: 5
 
 The **Multisite Language Switcher** provides some filters and actions, which are very useful for programmers who want to interact with the plugin from their functions and classes.
 
+**And again: Always backup your files and database prior to work on your site, better safe than sorry.**
+
 *Read first the [introduction](http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters) provided by the WordPress community if you don't know what hooks are.*
 
 ## msls\_admin\_icon\_get\_edit\_new ##
