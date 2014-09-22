@@ -14,7 +14,7 @@ You can use the constant _WPLANG_ provided by WordPress if you want to know the 
 
 The Multisite Language Switcher sets the language to 'us' in this case. If you want to use this functionality you can write something like that:
 
-	$blog = MslsBlogCollection::instance()->get_current_blog();
+	$blog     = MslsBlogCollection::instance()->get_current_blog();
 	$language = $blog->get_language();
 
 ## Manipulate the Navigation Menu ##
