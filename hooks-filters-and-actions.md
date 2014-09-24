@@ -110,7 +110,17 @@ Example:
 
 {% gist lloc/5f922fc770d818365992 msls_main_save.php %}
 
-*Use this action only if you exactly know what you do!* 
+*Use this action only if you exactly know what you do!*
+
+## msls\_meta\_box\_render\_input\_button ##
+
+You can change or hide the button of the meta box in the edit-screen with this filter.
+
+Example:
+
+{% gist lloc/5f922fc770d818365992 msls_meta_box_render_input_button.php %}
+
+*This wraps the code of the submit-button into HTML comments.*
 
 ## msls\_meta\_box\_suggest\_args / msls\_post\_tag\_suggest\_args ##
 
