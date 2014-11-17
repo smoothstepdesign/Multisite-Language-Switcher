@@ -132,6 +132,14 @@ Example:
 
 *This would limit the output of the results to a maximum of 5 posts.*
 
+## msls\_meta\_box\_render\_select\_hierarchical ##
+
+This is only valid for hierarchical post types that use the HTML select (and _not_ the new autocomplete inputs)in the meta box.
+
+{% gist lloc/5f922fc770d818365992 msls_meta_box_render_select_hierarchical.php %}
+
+This adds various post_stati to the array _$args_ for _wp\_dropdown\_pages even if this function does not expect this. But inside the function is a call to _get\_pages_ that can use this param.
+
 ## msls\_meta\_box\_suggest\_post / msls\_post\_tag\_suggest\_term ##
 
 You can even manipulate the [WP_Post](http://codex.wordpress.org/Class_Reference/WP_Post)- or Term-objects in the result-set created in 'msls\_meta\_box\_suggest\_args' or 'msls\_post\_tag\_suggest\_args'. 
